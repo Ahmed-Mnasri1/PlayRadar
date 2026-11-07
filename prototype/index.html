@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr" data-fi="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>PlayRadar — Le bon jeu, au bon prix, au bon moment</title>
+  <meta name="description" content="PlayRadar compare les prix des jeux vidéo sur les boutiques officielles, garde l'historique et vous prévient quand un prix baisse. Prix en euros ou en dinars." />
+  <meta name="theme-color" content="#0e1320" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+<body data-page="accueil">
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="header" data-slot="header"></header>
+
+  <main id="main">
+    <!-- Héros : promesse + recherche + radar -->
+    <section class="hero wrap" aria-labelledby="hero-h">
+      <div class="hero__copy" data-wf="Zone principale">
+        <p class="eyebrow enter" style="--i:0">Comparateur de prix · jeux vidéo</p>
+        <h1 class="hero__title" id="hero-h">
+          <span class="line"><span style="--i:0">Le bon jeu,</span></span>
+          <span class="line"><span style="--i:1">au bon prix,</span></span>
+          <span class="line"><span class="t-radar" style="--i:2">au bon moment.</span></span>
+        </h1>
+        <p class="hero__lead enter" style="--i:4">PlayRadar compare les boutiques officielles, garde l'historique de chaque prix et vous prévient dès qu'il baisse. En euros ou en dinars.</p>
+        <form class="hero-search enter" style="--i:5" action="recherche.html" role="search" data-wf="Action principale">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" name="q" placeholder="Quel jeu cherchez-vous ?" aria-label="Rechercher un jeu" />
+          <button class="btn btn--primary btn--lg" type="submit">Comparer les prix</button>
+        </form>
+        <div class="hero__chips chips enter" style="--i:6">
+          <a class="chip" href="recherche.html?plat=PC">PC</a>
+          <a class="chip" href="recherche.html?plat=PS5">PS5</a>
+          <a class="chip" href="recherche.html?plat=Xbox%20Series">Xbox Series</a>
+          <a class="chip" href="recherche.html?max=20">Moins de 20 €</a>
+          <a class="chip" href="recherche.html?low=1" data-chip-low>Au plus bas historique</a>
+        </div>
+        <ul class="hero__facts enter" style="--i:7">
+          <li><b>7</b><span>boutiques officielles</span></li>
+          <li><b>1×/jour</b><span>relevé de chaque prix</span></li>
+          <li><b>12 mois</b><span>d'historique par jeu</span></li>
+        </ul>
+      </div>
+
+      <div class="radar" aria-hidden="true" data-radar>
+        <div class="radar__disc"></div>
+        <svg class="radar__grid" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width=".25">
+          <circle cx="50" cy="50" r="49.5" /><circle cx="50" cy="50" r="37" /><circle cx="50" cy="50" r="24.5" /><circle cx="50" cy="50" r="12" />
+          <path d="M50 .5V99.5M.5 50H99.5" stroke-dasharray=".8 1.2" />
+        </svg>
+        <div class="radar__sweep"></div>
+        <div class="radar__core"></div>
+        <div data-blips></div>
+        <p class="radar__legend"><i></i>Balayage des boutiques en cours</p>
+      </div>
+    </section>
+
+    <!-- À la une (visuel officiel) -->
+    <section class="section wrap" data-feature aria-label="À la une"></section>
+
+    <!-- Bons plans -->
+    <section class="section wrap" aria-labelledby="deals-h">
+      <div class="section__head">
+        <div>
+          <h2 id="deals-h">Bons plans du jour</h2>
+          <p>Les plus fortes baisses relevées ce matin, toutes boutiques confondues.</p>
+        </div>
+        <a class="link-more" href="recherche.html?promo=1">Toutes les promos <span data-icon="arrow-right"></span></a>
+      </div>
+      <div class="grid-cards" data-deals data-wf="Contenu : cartes de jeux"></div>
+    </section>
+
+    <!-- Sorties à venir -->
+    <section class="section wrap" aria-labelledby="up-h">
+      <div class="section__head">
+        <div>
+          <h2 id="up-h">Sorties à venir</h2>
+          <p>Dates, éditions et bonus de précommande, comparés au même endroit.</p>
+        </div>
+        <a class="link-more" href="#" data-soon="Calendrier des sorties">Calendrier complet <span data-icon="arrow-right"></span></a>
+      </div>
+      <div class="upcoming" data-upcoming data-wf="Contenu : précommandes"></div>
+    </section>
+
+    <!-- Comment ça marche + angle local -->
+    <section class="section wrap" aria-labelledby="how-h">
+      <div class="section__head"><h2 id="how-h">Trois étapes avant d'acheter</h2></div>
+      <div class="how">
+        <article class="step"><span class="step__n">01</span><span data-icon="search"></span><h3>Cherchez</h3><p>Un nom, un studio ou un genre : les suggestions arrivent dès la première lettre.</p></article>
+        <article class="step"><span class="step__n">02</span><span data-icon="chart-line"></span><h3>Comparez</h3><p>Le prix de chaque boutique, son historique et un verdict clair : acheter ou attendre.</p></article>
+        <article class="step"><span class="step__n">03</span><span data-icon="bell-ring"></span><h3>Soyez alerté</h3><p>Fixez votre prix cible : un e-mail part dès que le jeu passe en dessous.</p></article>
+        <article class="local" data-wf="Bloc : angle local">
+          <p class="eyebrow">L'angle local</p>
+          <h3>Acheter depuis la Tunisie</h3>
+          <ul>
+            <li><span data-icon="credit-card"></span>Carte Technologique Internationale</li>
+            <li><span data-icon="gift"></span>Cartes cadeaux des boutiques</li>
+            <li><span data-icon="store"></span>Revendeurs locaux</li>
+          </ul>
+          <a class="btn btn--sm" href="#" data-soon="Guide « Acheter depuis la Tunisie »">Lire le guide <span data-icon="arrow-right" data-cls="m-arrow"></span></a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-slot="footer"></footer>
+  <nav class="tabbar" data-slot="tabbar" aria-label="Navigation mobile"></nav>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/steam-data.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/covers.js"></script>
+  <script src="assets/js/chart.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/pages/home.js"></script>
+</body>
+</html>

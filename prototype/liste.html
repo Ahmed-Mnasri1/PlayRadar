@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr" data-fi="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Ma liste et mes alertes — PlayRadar</title>
+  <meta name="description" content="Suivez vos jeux, fixez un prix cible et recevez un e-mail dès qu'il est atteint." />
+  <meta name="theme-color" content="#0e1320" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+<body data-page="liste">
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="header" data-slot="header"></header>
+
+  <main id="main" class="wrap list-page">
+    <div class="page-head">
+      <div>
+        <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span data-icon="chevron-right"></span><span>Ma liste</span></nav>
+        <h1 style="margin-top:12px">Ma liste</h1>
+        <p>Vos jeux surveillés et vos prix cibles. Les alertes partent par e-mail dès qu'un prix passe sous votre cible.</p>
+      </div>
+      <button class="btn btn--ghost" type="button" data-add><span data-icon="plus"></span>Ajouter un jeu</button>
+    </div>
+
+    <div class="kpis" data-kpis data-wf="Contenu : synthèse"></div>
+    <div class="hits" data-hits data-wf="Alerte déclenchée"></div>
+
+    <div class="list-layout">
+      <section aria-labelledby="rows-h">
+        <h2 id="rows-h" hidden>Jeux suivis</h2>
+        <div class="list-bar">
+          <div class="seg" role="group" aria-label="Filtrer la liste" data-tab>
+            <button type="button" data-v="all" aria-pressed="true">Tous</button>
+            <button type="button" data-v="hit">Sous la cible</button>
+            <button type="button" data-v="wait">En attente</button>
+            <button type="button" data-v="soon">À venir</button>
+          </div>
+          <label class="select">
+            <select data-sort aria-label="Trier la liste">
+              <option value="close">Plus proches de la cible</option>
+              <option value="added">Ajout récent</option>
+              <option value="price">Prix croissant</option>
+            </select>
+            <span data-icon="chevron-down"></span>
+          </label>
+        </div>
+        <div class="rows" data-rows data-wf="Contenu : jeux suivis"></div>
+      </section>
+
+      <aside class="game-side" id="alertes" style="top: calc(var(--header-h) + 24px)">
+        <section class="side-card prefs" aria-labelledby="pref-h" data-wf="Paramètres d'alerte">
+          <h2 id="pref-h"><span data-icon="settings-2"></span>Préférences d'alerte</h2>
+          <label class="toggle-row">Alertes par e-mail <span class="switch"><input type="checkbox" checked data-pref="mail" /><span></span></span></label>
+          <label class="toggle-row">Sorties de ma liste <span class="switch"><input type="checkbox" checked data-pref="release" /><span></span></span></label>
+          <div class="toggle-row"><span>Fréquence</span>
+            <div class="seg" role="group" aria-label="Fréquence des e-mails" data-freq>
+              <button type="button" data-v="now" aria-pressed="true">Immédiate</button>
+              <button type="button" data-v="daily">1×/jour</button>
+            </div>
+          </div>
+          <p class="muted" style="font-size:12px">Adresse : y•••@mail.example · désinscription en un clic dans chaque e-mail.</p>
+        </section>
+        <section class="side-card" aria-labelledby="feed-h">
+          <h2 id="feed-h"><span data-icon="mail"></span>Derniers e-mails</h2>
+          <ul class="feed" data-feed></ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer" data-slot="footer"></footer>
+  <nav class="tabbar" data-slot="tabbar" aria-label="Navigation mobile"></nav>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/steam-data.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/covers.js"></script>
+  <script src="assets/js/chart.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/pages/list.js"></script>
+</body>
+</html>

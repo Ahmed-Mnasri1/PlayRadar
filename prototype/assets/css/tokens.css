@@ -1,0 +1,142 @@
+/* ==========================================================================
+   PlayRadar — Design tokens (charte graphique)
+   Une seule source de vérité : le prototype, la présentation et le futur
+   thème Tailwind / Next.js lisent ces mêmes valeurs.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/dm-sans-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/dm-sans-latin-wght-italic.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 800;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+
+  /* — Couleurs de marque (Objectif 1) — */
+  --night: #0e1320;      /* Nuit · fond */
+  --panel: #182033;      /* Panneau · cartes */
+  --panel-2: #1f2942;    /* Panneau surélevé · survol */
+  --line: #2a3552;       /* Filets et bordures */
+  --line-strong: #3a4768;
+  --radar: #c8f169;      /* Radar · actions, prix, succès */
+  --radar-ink: #0e1320;  /* Texte posé sur Radar */
+  --signal: #ff8a3d;     /* Signal · promos, alertes */
+  --signal-ink: #0e1320;
+  --ivory: #f3f1ec;      /* Ivoire · fonds clairs */
+  --sky: #8fb8ff;        /* Information */
+  --danger: #ff6b6b;
+
+  /* — Texte (contrastes mesurés sur --night) — */
+  --ink: #eef1f6;        /* 16,4:1 */
+  --ink-2: #9aa4b8;      /*  7,4:1 */
+  --ink-3: #7c879e;      /*  5,1:1 */
+
+  /* — Teintes douces (fonds de badges) — */
+  --radar-soft: rgb(200 241 105 / 0.12);
+  --signal-soft: rgb(255 138 61 / 0.14);
+  --sky-soft: rgb(143 184 255 / 0.14);
+
+  /* — Typographies — */
+  --font-display: "Space Grotesk", "DM Sans", system-ui, sans-serif;
+  --font-text: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Échelle typographique (base 16 px, ratio ≈ 1,25) */
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-32: 2rem;
+  --fs-40: 2.5rem;
+  --fs-56: 3.5rem;
+
+  /* — Espacements : grille de 4 px — */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+
+  /* — Rayons — */
+  --r-sm: 6px;   /* badges */
+  --r-md: 10px;  /* boutons, champs */
+  --r-lg: 14px;  /* cartes */
+  --r-xl: 20px;  /* panneaux */
+  --r-pill: 999px;
+
+  /* — Profondeur — */
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.03) inset, 0 12px 32px -18px rgb(0 0 0 / 0.6);
+  --shadow-pop: 0 24px 64px -24px rgb(0 0 0 / 0.75), 0 0 0 1px var(--line);
+
+  /* — Mouvement — */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-enter: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-in: 150ms;
+  --t-out: 120ms;
+  --t-press: 90ms;
+  --t-panel: 200ms;
+
+  --wrap: 1280px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --header-h: 72px;
+}
+
+/* ==========================================================================
+   Mode « basse fidélité » (wireframe noir et blanc)
+   Même HTML, mêmes composants : seules les variables changent.
+   Activé par <html data-fi="lo"> (bouton en bas de page ou touche W).
+   ========================================================================== */
+:root[data-fi="lo"] {
+  color-scheme: light;
+  --night: #f4f4f2;
+  --panel: #ffffff;
+  --panel-2: #ececea;
+  --line: #c9c9c6;
+  --line-strong: #8a8a87;
+  --radar: #1c1c1c;
+  --radar-ink: #ffffff;
+  --signal: #1c1c1c;
+  --signal-ink: #ffffff;
+  --sky: #1c1c1c;
+  --danger: #1c1c1c;
+  --ink: #1c1c1c;
+  --ink-2: #555553;
+  --ink-3: #6e6e6b;
+  --radar-soft: #ececea;
+  --signal-soft: #ececea;
+  --sky-soft: #ececea;
+  --font-display: "DM Sans", system-ui, sans-serif;
+  --r-sm: 3px;
+  --r-md: 4px;
+  --r-lg: 6px;
+  --r-xl: 8px;
+  --shadow-card: none;
+  --shadow-pop: 0 0 0 1.5px #1c1c1c;
+}

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr" data-fi="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Recherche — PlayRadar</title>
+  <meta name="description" content="Recherchez un jeu et filtrez par plateforme, genre, prix, classification PEGI ou date de sortie." />
+  <meta name="theme-color" content="#0e1320" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+</head>
+<body data-page="recherche">
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="header" data-slot="header"></header>
+
+  <main id="main" class="wrap">
+    <div class="page-head">
+      <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span data-icon="chevron-right"></span><span>Recherche</span></nav>
+      <h1 data-title>Tous les jeux</h1>
+    </div>
+
+    <div class="search-layout">
+      <form class="filters" data-filters aria-label="Filtres" data-wf="Filtres">
+        <div class="filters__head">
+          <h2>Filtres</h2>
+          <button type="button" class="filters__reset" data-reset>Tout effacer</button>
+        </div>
+
+        <fieldset class="fgroup">
+          <legend>Plateforme</legend>
+          <div data-plats></div>
+        </fieldset>
+
+        <fieldset class="fgroup">
+          <legend>Genre</legend>
+          <div class="chips" data-genres></div>
+        </fieldset>
+
+        <fieldset class="fgroup">
+          <legend>Prix maximum</legend>
+          <div class="range">
+            <input type="range" name="max" min="5" max="110" step="5" value="110" aria-label="Prix maximum" />
+            <div class="range__val"><span>5 €</span><b data-max-label>Sans limite</b><span>110 €</span></div>
+          </div>
+        </fieldset>
+
+        <fieldset class="fgroup">
+          <legend>Offres</legend>
+          <label class="toggle-row">En promotion <span class="switch"><input type="checkbox" name="promo" /><span></span></span></label>
+          <label class="toggle-row">Au plus bas historique <span class="switch"><input type="checkbox" name="low" /><span></span></span></label>
+        </fieldset>
+
+        <fieldset class="fgroup">
+          <legend>Sortie</legend>
+          <div class="seg" role="group" aria-label="Date de sortie" data-when>
+            <button type="button" data-v="all" aria-pressed="true">Toutes</button>
+            <button type="button" data-v="out">Sortis</button>
+            <button type="button" data-v="soon">À venir</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="fgroup">
+          <legend>Âge (PEGI maximum)</legend>
+          <div class="seg" role="group" aria-label="PEGI maximum" data-pegi>
+            <button type="button" data-v="3">3</button>
+            <button type="button" data-v="7">7</button>
+            <button type="button" data-v="12">12</button>
+            <button type="button" data-v="16">16</button>
+            <button type="button" data-v="18" aria-pressed="true">18</button>
+          </div>
+        </fieldset>
+
+        <button type="button" class="btn btn--primary btn--block filters-btn" data-close-filters>Voir les résultats</button>
+      </form>
+
+      <section class="results" aria-live="polite" data-wf="Contenu : résultats">
+        <div class="results__bar">
+          <p class="results__count" data-count></p>
+          <button type="button" class="btn btn--ghost btn--sm filters-btn" data-open-filters><span data-icon="sliders-horizontal"></span>Filtres</button>
+          <label class="select">
+            <span class="sr-only" hidden>Trier par</span>
+            <select name="sort" data-sort aria-label="Trier par">
+              <option value="relevance">Pertinence</option>
+              <option value="price">Prix croissant</option>
+              <option value="discount">Plus forte remise</option>
+              <option value="date">Plus récents</option>
+            </select>
+            <span data-icon="chevron-down"></span>
+          </label>
+          <div class="seg" role="group" aria-label="Affichage" data-view>
+            <button type="button" data-v="grid" aria-pressed="true" aria-label="Grille"><span data-icon="layout-grid"></span></button>
+            <button type="button" data-v="list" aria-label="Liste"><span data-icon="list"></span></button>
+          </div>
+          <div class="active-chips" data-active></div>
+        </div>
+        <div class="grid-cards grid-cards--4" data-results></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer" data-slot="footer"></footer>
+  <nav class="tabbar" data-slot="tabbar" aria-label="Navigation mobile"></nav>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/steam-data.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/covers.js"></script>
+  <script src="assets/js/chart.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/pages/search.js"></script>
+</body>
+</html>
