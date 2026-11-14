@@ -1,0 +1,1173 @@
+[
+  {
+    "id": "gta-v",
+    "appid": 3240220,
+    "title": "Grand Theft Auto V",
+    "edition": "Enhanced",
+    "aliases": "GTA V GTA 5 GTAV Rockstar Los Santos",
+    "studio": "Rockstar North",
+    "publisher": "Rockstar Games",
+    "studioCity": "Edinburgh",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Racing"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Online Play, Strong Language",
+    "release": "2025-03-04",
+    "upcoming": false,
+    "hours": 32,
+    "tagline": "Los Santos and Blaine County, enhanced: ray tracing, fast loading and GTA Online included.",
+    "description": "Experience Grand Theft Auto V and Grand Theft Auto Online, the must-play blockbusters, enhanced for a new generation with stunning visuals, faster loading, 3D audio and more, plus exclusive content for GTA Online players.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 (latest service pack)",
+        "Processor": "Intel® Core™ i7-4770 / AMD FX™-9590",
+        "Memory": "8 GB",
+        "Graphics": "NVIDIA GeForce® GTX 1630 (4GB VRAM) / AMD Radeon™ RX 6400 (4GB VRAM)",
+        "Storage": "105 GB"
+      },
+      "rec": {
+        "OS": "Windows 11",
+        "Processor": "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600",
+        "Memory": "16 GB",
+        "Graphics": "NVIDIA GeForce® RTX 3060 (8GB VRAM) / AMD Radeon™ RX 6600XT (8GB VRAM)",
+        "Storage": "105 GB"
+      }
+    },
+    "updates": [
+      {
+        "title": "Take Down the Kortz Center and More High-Value Targets in The Heist Event",
+        "date": "2026-11-06",
+        "text": "Get in, get out, and make a killing in this week’s GTA Online Heist Event. Assemble a crew of familiar faces or perfect strangers, gather your gear, execute a robbery, and exfiltrate safely to earn doubled first-time com",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345922"
+      },
+      {
+        "title": "Experience Halloween Thrills All Throughout October in GTA Online",
+        "date": "2026-10-05",
+        "text": "The streets of Los Santos are crawling with creepy apparitions, paranormal visions, and more this Halloween season. Prepare for a month of ghastly mayhem with vengeful Slashers roaming the streets and tides of shambling ",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656393780"
+      }
+    ],
+    "img": {
+      "cover": "/games/gta-v/cover.jpg",
+      "header": "/games/gta-v/header.jpg",
+      "hero": "/games/gta-v/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 29.99,
+          "off": 0
+        },
+        {
+          "store": "epic",
+          "base": 29.99,
+          "off": 0.34
+        },
+        {
+          "store": "rockstar",
+          "base": 29.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 39.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 39.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.62,
+      "lowUsd": 14.99,
+      "rngSeed": 3,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 29.99,
+        "perks": [
+          "Story mode of GTA V",
+          "GTA Online",
+          "Enhanced version: ray tracing, DLSS and FSR, fast loading"
+        ]
+      },
+      {
+        "id": "shark",
+        "name": "+ Great White Shark Card",
+        "base": 44.99,
+        "perks": [
+          "Everything in Standard",
+          "Great White Shark Card: GTA$1,250,000 for GTA Online"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "appid": 1174180,
+    "title": "Red Dead Redemption 2",
+    "edition": null,
+    "aliases": "",
+    "studio": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "studioCity": "Edinburgh",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Strong Language, Violence, Gambling",
+    "release": "2019-12-05",
+    "upcoming": false,
+    "hours": 50,
+    "tagline": "The American frontier in 1899, from the creators of GTA V.",
+    "description": "Arthur Morgan and the Van der Linde gang are outlaws on the run. With federal agents and bounty hunters closing in, the gang must rob, steal and fight their way across the wilds of America to survive.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 - 64-bit",
+        "Processor": "Intel® Core™ i5-2500K / AMD FX-6300",
+        "Memory": "8 GB",
+        "Graphics": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "Storage": "150 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 - 64-bit",
+        "Processor": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+        "Memory": "12 GB",
+        "Graphics": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+        "Storage": "150 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/red-dead-redemption-2/cover.jpg",
+      "header": "/games/red-dead-redemption-2/header.jpg",
+      "hero": "/games/red-dead-redemption-2/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "rockstar",
+          "base": 59.99,
+          "off": 0.67
+        },
+        {
+          "store": "epic",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 69.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.55,
+      "lowUsd": 14.99,
+      "rngSeed": 7,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 59.99,
+        "perks": [
+          "Story mode",
+          "Red Dead Online"
+        ]
+      },
+      {
+        "id": "ultimate",
+        "name": "Ultimate Edition",
+        "base": 99.99,
+        "perks": [
+          "Everything in Standard",
+          "Bonus missions, weapons and outfits",
+          "Red Dead Online bonuses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cyberpunk-2077",
+    "appid": 1091500,
+    "title": "Cyberpunk 2077",
+    "edition": null,
+    "aliases": "",
+    "studio": "CD PROJEKT RED",
+    "publisher": "CD PROJEKT RED",
+    "studioCity": "Warsaw",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Sex, Bad Language, In-game purchases",
+    "release": "2020-12-09",
+    "upcoming": false,
+    "hours": 26,
+    "tagline": "Night City, its implants and its mercenaries.",
+    "description": "Cyberpunk 2077 is an open-world action-adventure RPG set in Night City, a dark futuristic megalopolis obsessed with power, glamour and body modification.",
+    "requirements": {
+      "min": {
+        "OS": "64-bit Windows 10",
+        "Processor": "Core i7-6700 or Ryzen 5 1600",
+        "Memory": "12 GB",
+        "Graphics": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
+        "Storage": "70 GB"
+      },
+      "rec": {
+        "OS": "64-bit Windows 10",
+        "Processor": "Core i7-12700 or Ryzen 7 7800X3D",
+        "Memory": "16 GB",
+        "Graphics": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
+        "Storage": "70 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/cyberpunk-2077/cover.jpg",
+      "header": "/games/cyberpunk-2077/header.jpg",
+      "hero": "/games/cyberpunk-2077/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "gog",
+          "base": 59.99,
+          "off": 0.5
+        },
+        {
+          "store": "epic",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 59.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.5,
+      "lowUsd": 23.99,
+      "rngSeed": 13,
+      "noSales": false
+    },
+    "editions": null
+  },
+  {
+    "id": "elden-ring",
+    "appid": 1245620,
+    "title": "Elden Ring",
+    "edition": null,
+    "aliases": "",
+    "studio": "FromSoftware, Inc.",
+    "publisher": "FromSoftware, Inc.",
+    "studioCity": "Tokyo",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 16,
+    "pegiDesc": "Violence, In-Game Purchases",
+    "release": "2022-02-24",
+    "upcoming": false,
+    "hours": 59,
+    "tagline": "The Lands Between, by FromSoftware and George R. R. Martin.",
+    "description": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10",
+        "Processor": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+        "Memory": "12 GB",
+        "Graphics": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+        "Storage": "60 GB"
+      },
+      "rec": {
+        "OS": "Windows 10/11",
+        "Processor": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+        "Memory": "16 GB",
+        "Graphics": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+        "Storage": "60 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/elden-ring/cover.jpg",
+      "header": "/games/elden-ring/header.jpg",
+      "hero": "/games/elden-ring/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 59.99,
+          "off": 0.3
+        },
+        {
+          "store": "xbox",
+          "base": 59.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.62,
+      "lowUsd": 29.99,
+      "rngSeed": 21,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 59.99,
+        "perks": [
+          "Base game"
+        ]
+      },
+      {
+        "id": "sote",
+        "name": "Shadow of the Erdtree Edition",
+        "base": 79.99,
+        "perks": [
+          "Base game",
+          "Shadow of the Erdtree expansion"
+        ]
+      },
+      {
+        "id": "deluxe",
+        "name": "Shadow of the Erdtree Deluxe",
+        "base": 99.99,
+        "perks": [
+          "Base game",
+          "Shadow of the Erdtree expansion",
+          "Digital artbook and soundtrack"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007-first-light",
+    "appid": 3768760,
+    "title": "007 First Light",
+    "edition": null,
+    "aliases": "",
+    "studio": "IO Interactive A/S",
+    "publisher": "IO Interactive A/S",
+    "studioCity": "Copenhagen",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 16,
+    "pegiDesc": "Violence, In-Game Purchases",
+    "release": "2026-05-26",
+    "upcoming": false,
+    "hours": null,
+    "tagline": "The origins of James Bond, by IO Interactive.",
+    "description": "Earn your number. 007 First Light is a thrilling spy action-adventure from IO Interactive. Follow a young, sharp and sometimes reckless James Bond through his MI6 training and discover the origin story of the world's most famous secret agent.",
+    "requirements": {
+      "min": {
+        "OS": "MICROSOFT WINDOWS 10/11, 64-BIT",
+        "Processor": "INTEL CORE i5 9500, AMD RYZEN 5 3500",
+        "Memory": "16 GB",
+        "Graphics": "NVIDIA GFORCE GTX 1660, AMD RX 5700, INTEL DISCRETE GPU EQUIVALENT",
+        "Storage": "80 GB"
+      },
+      "rec": {
+        "OS": "MICROSOFT WINDOWS 10/11, 64-BIT",
+        "Processor": "INTEL CORE i5 13500, AMD RYZEN 5 7600",
+        "Memory": "16 GB",
+        "Graphics": "NVIDIA GEFORCE RTX 3060 TI, AMD RX 6700 XT, INTEL DISCRETE GPU EQUIVALENT",
+        "Storage": "80 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/007-first-light/cover.jpg",
+      "header": "/games/007-first-light/header.jpg",
+      "hero": "/games/007-first-light/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "epic",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 69.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.8,
+      "lowUsd": null,
+      "rngSeed": 31,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 69.99,
+        "perks": [
+          "Base game"
+        ]
+      },
+      {
+        "id": "deluxe",
+        "name": "Deluxe Edition",
+        "base": 79.99,
+        "perks": [
+          "Base game",
+          "Deluxe content (see the official page for details)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "no-mans-sky",
+    "appid": 275850,
+    "title": "No Man's Sky",
+    "edition": null,
+    "aliases": "",
+    "studio": "Hello Games",
+    "publisher": "Hello Games",
+    "studioCity": "Guildford",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2016-08-12",
+    "upcoming": false,
+    "hours": null,
+    "tagline": "A procedurally generated universe to explore alone or together.",
+    "description": "No Man's Sky is a science-fiction game about exploration and survival in an infinite, procedurally generated universe.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10/11 (64-bit versions)",
+        "Processor": "Intel Core i3",
+        "Memory": "8 GB",
+        "Graphics": "Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630",
+        "Storage": "15 GB"
+      },
+      "rec": null
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/no-mans-sky/cover.jpg",
+      "header": "/games/no-mans-sky/header.jpg",
+      "hero": "/games/no-mans-sky/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0.6
+        },
+        {
+          "store": "gog",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "nintendo",
+          "base": 49.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.5,
+      "lowUsd": 23.99,
+      "rngSeed": 41,
+      "noSales": false
+    },
+    "editions": null
+  },
+  {
+    "id": "baldurs-gate-3",
+    "appid": 1086940,
+    "title": "Baldur's Gate 3",
+    "edition": null,
+    "aliases": "",
+    "studio": "Larian Studios",
+    "publisher": "Larian Studios",
+    "studioCity": "Ghent",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Strategy"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Bad Language, Sex",
+    "release": "2023-08-03",
+    "upcoming": false,
+    "hours": 75,
+    "tagline": "Larian's role-playing epic set in the Dungeons & Dragons universe.",
+    "description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+        "Memory": "8 GB",
+        "Graphics": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
+        "Storage": "150 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel i7 8700K / AMD r5 3600",
+        "Memory": "16 GB",
+        "Graphics": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
+        "Storage": "150 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/baldurs-gate-3/cover.jpg",
+      "header": "/games/baldurs-gate-3/header.jpg",
+      "hero": "/games/baldurs-gate-3/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "gog",
+          "base": 59.99,
+          "off": 0.2
+        },
+        {
+          "store": "psn",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 69.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.78,
+      "lowUsd": 41.99,
+      "rngSeed": 51,
+      "noSales": false
+    },
+    "editions": null
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "appid": 1030300,
+    "title": "Hollow Knight: Silksong",
+    "edition": null,
+    "aliases": "",
+    "studio": "Team Cherry",
+    "publisher": "Team Cherry",
+    "studioCity": "Adelaide",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2025-09-04",
+    "upcoming": false,
+    "hours": null,
+    "tagline": "Hornet, protector of Hallownest, in a kingdom to climb.",
+    "description": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 version 21H1 (build 19043) or newer",
+        "Processor": "Intel Core i3-3240, AMD FX-4300",
+        "Memory": "4 GB",
+        "Graphics": "GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)",
+        "Storage": "8 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 version 21H1 (build 19043) or newer",
+        "Processor": "Intel Core i5-3470",
+        "Memory": "8 GB",
+        "Graphics": "GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)",
+        "Storage": "8 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/hollow-knight-silksong/cover.jpg",
+      "header": "/games/hollow-knight-silksong/header.jpg",
+      "hero": "/games/hollow-knight-silksong/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 19.99,
+          "off": 0
+        },
+        {
+          "store": "gog",
+          "base": 19.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 19.99,
+          "off": 0
+        },
+        {
+          "store": "nintendo",
+          "base": 19.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.85,
+      "lowUsd": null,
+      "rngSeed": 61,
+      "noSales": true
+    },
+    "editions": null
+  },
+  {
+    "id": "stardew-valley",
+    "appid": 413150,
+    "title": "Stardew Valley",
+    "edition": null,
+    "aliases": "",
+    "studio": "ConcernedApe",
+    "publisher": "ConcernedApe",
+    "studioCity": "Seattle",
+    "genres": [
+      "RPG",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": 12,
+    "pegiDesc": "Violence",
+    "release": "2016-02-26",
+    "upcoming": false,
+    "hours": 53,
+    "tagline": "Take over your grandfather's farm, season after season.",
+    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "requirements": {
+      "min": {
+        "OS": "Windows Vista or greater",
+        "Processor": "2 Ghz",
+        "Memory": "2 GB",
+        "Graphics": "256 mb video memory, shader model 3.0+",
+        "Storage": "500 MB"
+      },
+      "rec": null
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/stardew-valley/cover.jpg",
+      "header": "/games/stardew-valley/header.jpg",
+      "hero": "/games/stardew-valley/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 14.99,
+          "off": 0
+        },
+        {
+          "store": "gog",
+          "base": 14.99,
+          "off": 0
+        },
+        {
+          "store": "nintendo",
+          "base": 14.99,
+          "off": 0
+        },
+        {
+          "store": "psn",
+          "base": 14.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.7,
+      "lowUsd": 8.39,
+      "rngSeed": 71,
+      "noSales": false
+    },
+    "editions": null
+  },
+  {
+    "id": "lego-star-wars",
+    "appid": 920210,
+    "title": "LEGO Star Wars: The Skywalker Saga",
+    "edition": null,
+    "aliases": "",
+    "studio": "TT Games",
+    "publisher": "Warner Bros. Games",
+    "studioCity": "Knutsford",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": 7,
+    "pegiDesc": "Violence, Fear, In-Game Purchases",
+    "release": "2022-04-05",
+    "upcoming": false,
+    "hours": 23,
+    "tagline": "All nine Star Wars films in LEGO bricks, playable in co-op.",
+    "description": "Play through all nine Skywalker saga films in a LEGO video game like no other. With over 300 playable characters, 100+ vehicles and 23 planets to explore, a galaxy far, far away has never been this fun!",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel Core i5-2400 or AMD Ryzen 3 1200",
+        "Memory": "8 GB",
+        "Graphics": "GeForce GTX 750 Ti or Radeon HD 7850",
+        "Storage": "40 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel Core i5-6600 or AMD Ryzen 3 3100",
+        "Memory": "8 GB",
+        "Graphics": "GeForce GTX 780 or Radeon R9 290",
+        "Storage": "40 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/lego-star-wars/cover.jpg",
+      "header": "/games/lego-star-wars/header.jpg",
+      "hero": "/games/lego-star-wars/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "epic",
+          "base": 59.99,
+          "off": 0.75
+        },
+        {
+          "store": "psn",
+          "base": 59.99,
+          "off": 0
+        },
+        {
+          "store": "nintendo",
+          "base": 59.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.5,
+      "lowUsd": 14.99,
+      "rngSeed": 81,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 59.99,
+        "perks": [
+          "Base game"
+        ]
+      },
+      {
+        "id": "deluxe",
+        "name": "Deluxe Edition",
+        "base": 69.99,
+        "perks": [
+          "Base game",
+          "Character collection DLC"
+        ]
+      },
+      {
+        "id": "galactic",
+        "name": "Galactic Edition",
+        "base": 79.99,
+        "perks": [
+          "Base game",
+          "Deluxe content",
+          "Galactic Edition bonus content"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "forza-horizon-6",
+    "appid": 2483190,
+    "title": "Forza Horizon 6",
+    "edition": null,
+    "aliases": "",
+    "studio": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "studioCity": "Leamington Spa",
+    "genres": [
+      "Racing",
+      "Simulation",
+      "Sports"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": 3,
+    "pegiDesc": null,
+    "release": "2026-05-18",
+    "upcoming": false,
+    "hours": null,
+    "tagline": "The Horizon Festival comes to Japan.",
+    "description": "Discover the breathtaking landscapes of Japan behind the wheel of more than 550 real cars and become a racing legend in the biggest Forza Horizon adventure yet.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 22H2 (version 19045) or higher",
+        "Processor": "Intel i5-8400 OR AMD Ryzen 5 1600",
+        "Memory": "16 GB",
+        "Graphics": "Nvidia GTX 1650 OR AMD RX 6500 XT OR Intel Arc A380",
+        "Storage": "167 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 22H2 (version 19045) or higher",
+        "Processor": "Intel i5-12400F OR AMD Ryzen 5 5600X",
+        "Memory": "16 GB",
+        "Graphics": "NVIDIA RTX 3060 Ti OR AMD RX 6700 XT OR Intel Arc A580",
+        "Storage": "167 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/forza-horizon-6/cover.jpg",
+      "header": "/games/forza-horizon-6/header.jpg",
+      "hero": "/games/forza-horizon-6/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 69.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": 0.8,
+      "lowUsd": null,
+      "rngSeed": 91,
+      "noSales": true
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 69.99,
+        "perks": [
+          "Base game"
+        ]
+      },
+      {
+        "id": "deluxe",
+        "name": "Deluxe Edition",
+        "base": 99.99,
+        "perks": [
+          "Base game",
+          "Deluxe content"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "Premium Edition",
+        "base": 119.99,
+        "perks": [
+          "Base game",
+          "Deluxe content",
+          "Premium content and early access"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fable",
+    "appid": 2769570,
+    "title": "Fable",
+    "edition": null,
+    "aliases": "",
+    "studio": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "studioCity": "Leamington Spa",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Bad Language",
+    "release": "2027-02-23",
+    "upcoming": true,
+    "hours": null,
+    "tagline": "The return of Albion, by Playground Games.",
+    "description": "Become the hero you want to be in this immersive open-world action RPG where every decision shapes your adventure, reputation rules, and fairy-tale endings are never guaranteed.",
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 22H2",
+        "Processor": "AMD Ryzen 5 2600 / Intel i7‐6850K",
+        "Memory": "12 GB",
+        "Graphics": "AMD Radeon RX 6600 / Nvidia RTX 5050 / NVIDIA GeForce RTX 2060 / Intel A580",
+        "Storage": "135 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 22H2",
+        "Processor": "AMD Ryzen 5 5600 / Intel i5‐11600KF",
+        "Memory": "16 GB",
+        "Graphics": "AMD Radeon RX 6700 XT/ NVIDIA GeForce RTX 3060TI",
+        "Storage": "135 GB"
+      }
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/fable/cover.jpg",
+      "header": "/games/fable/header.jpg",
+      "hero": "/games/fable/hero.jpg"
+    },
+    "seed": {
+      "offers": [
+        {
+          "store": "steam",
+          "base": 69.99,
+          "off": 0
+        },
+        {
+          "store": "xbox",
+          "base": 69.99,
+          "off": 0
+        }
+      ],
+      "keysRatio": null,
+      "lowUsd": null,
+      "rngSeed": 101,
+      "noSales": false
+    },
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "base": 69.99,
+        "perks": [
+          "Base game"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "Premium Edition",
+        "base": 99.99,
+        "perks": [
+          "Base game",
+          "Premium Edition content (see the official page)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kingdom-hearts-iv",
+    "appid": 3216600,
+    "title": "Kingdom Hearts IV",
+    "edition": null,
+    "aliases": "",
+    "studio": "Square Enix",
+    "publisher": "Square Enix",
+    "studioCity": "Tokyo",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "pegi": 12,
+    "pegiDesc": null,
+    "release": "2027",
+    "upcoming": true,
+    "hours": null,
+    "tagline": "Sora discovers Quadratum, a world that looks like a real city.",
+    "description": "Our hero Sora wakes up in the world of Quadratum. While he searches for a way home, Donald and Goofy head to the Underworld to find him. Wield the Keyblade in thrilling combat tailored to your playstyle.",
+    "requirements": {
+      "min": null,
+      "rec": null
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/kingdom-hearts-iv/cover.jpg",
+      "header": "/games/kingdom-hearts-iv/header.jpg",
+      "hero": "/games/kingdom-hearts-iv/hero.jpg"
+    },
+    "seed": {
+      "offers": [],
+      "keysRatio": null,
+      "lowUsd": null,
+      "rngSeed": 111,
+      "noSales": false
+    },
+    "editions": null
+  },
+  {
+    "id": "clockwork-revolution",
+    "appid": 2439280,
+    "title": "Clockwork Revolution",
+    "edition": null,
+    "aliases": "",
+    "studio": "inXile Entertainment",
+    "publisher": "Xbox Game Studios",
+    "studioCity": "Newport Beach",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2027",
+    "upcoming": true,
+    "hours": null,
+    "tagline": "A steampunk RPG from inXile where every choice rewrites history.",
+    "description": "CHANGE THE PAST. CONTROL THE FUTURE. Alter the course of history and rewrite the future in this first-person steampunk RPG.",
+    "requirements": {
+      "min": null,
+      "rec": null
+    },
+    "updates": [],
+    "img": {
+      "cover": "/games/clockwork-revolution/cover.jpg",
+      "header": "/games/clockwork-revolution/header.jpg",
+      "hero": "/games/clockwork-revolution/hero.jpg"
+    },
+    "seed": {
+      "offers": [],
+      "keysRatio": null,
+      "lowUsd": null,
+      "rngSeed": 121,
+      "noSales": false
+    },
+    "editions": null
+  }
+]
