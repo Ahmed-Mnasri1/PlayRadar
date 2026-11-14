@@ -1,58 +1,77 @@
-# PlayRadar
+# 🎮 PlayRadar
 
-Tout l'univers d'un jeu vidéo (prix, studio, éditions, mises à jour) réuni au même endroit.
-Projet Web Sup'Com 2026–2027 · Groupe 9 · Ahmed Mnasri & Yessine Rekik · Encadrante : Dr. Maroua Nouioua.
+> **Le bon jeu, au bon prix, au bon moment.**
+> Un comparateur de jeux vidéo conçu pour aider les joueurs à comparer les offres, comprendre les prix et garder les jeux qu’ils souhaitent suivre.
 
-## Objectif 02 : conception, arborescence et prototypage
+**Projet Web · Groupe 9 · Sup’Com** · Application de démonstration réalisée avec **Next.js / React**.
 
-| Livrable | Où le trouver |
-| --- | --- |
-| Présentation (PDF à rendre) | [`livrables/Groupe9_Projet_Web_Objectif2.pdf`](livrables/Groupe9_Projet_Web_Objectif2.pdf) |
-| Présentation animée (soutenance) | [`presentation/index.html`](presentation/index.html) |
-| Prototype cliquable (HTML, CSS, JS) | [`prototype/index.html`](prototype/index.html) |
+| Découvrir | Lien |
+|---|---|
+| 📖 Présentation détaillée du projet, des fonctionnalités et de la feuille de route | [description.md](description.md) |
+| 📦 Archive de l’application — Objectif 03 | [Groupe9_Projet_Web_Objectif3.zip](livrables/Groupe9_Projet_Web_Objectif3.zip) |
+| 🧾 Rapport d’avancement et checklist de l’Objectif 03 | [PHASE-3-REPORT.md](PHASE-3-REPORT.md) |
 
-### Présentation animée
+## 🚀 Lancer l’application
 
-Ouvrir `presentation/index.html` dans Chrome, Edge ou Firefox (aucune installation, fonctionne hors ligne).
+Prérequis : **Node.js 20.9+** et npm. Depuis la racine du dépôt :
 
-- `→`, `Espace` ou `Entrée` : avancer · `←` : reculer · `F` : plein écran · `1`–`9` : aller à une diapositive
-- Diapositive 06 : chaque appui sur `→` passe à la section suivante de la fiche jeu avant de changer de diapositive.
-- Couverture et fin : scènes 3D (three.js) avec les vraies jaquettes. Diapositive 10 : flux de données animé sur canvas. Mieux vaut un navigateur récent avec WebGL ; sans WebGL, le reste fonctionne.
-
-### Prototype
-
-Ouvrir `prototype/index.html`. Quatre pages sont prototypées : Accueil, Recherche, Fiche jeu, Ma liste.
-
-- Touche `W` ou bouton en bas à gauche : bascule **wireframe noir et blanc / haute fidélité** (même code).
-- Touche `/` : recherche instantanée. Bouton `€ / DT` : affichage des prix en euros ou en dinars.
-- Les liens vers les pages non prototypées (Sorties, Connexion, Guide…) affichent un message.
-- **Vraies données Steam** (relevées le 7 nov. 2026 sur l'API publique) pour 14 jeux, dont GTA V : titres, studios, dates, PEGI, descriptions, éditions, configuration, actualités, jaquettes et images de fond officielles, prix Steam. Les prix des autres boutiques et les historiques sont simulés pour la maquette.
-- La liste de souhaits est gardée dans le navigateur (localStorage).
-
-```
-prototype/
-  index.html · recherche.html · jeu.html · liste.html
-  assets/css/tokens.css   charte graphique (couleurs, typos, espacements, mode wireframe)
-  assets/css/app.css      composants et pages
-  assets/js/steam-data.js données réelles relevées sur l'API Steam (généré)
-  assets/js/data.js       fusion Steam + couche maquette (forme du futur schéma PostgreSQL)
-  assets/games/<jeu>/     jaquette, image de fond et bannière officielles (Steam)
-  assets/js/components.js en-tête, carte de jeu, alertes, recherche… (futurs composants React)
-  assets/js/chart.js      historique des prix (futur Recharts)
-  assets/js/covers.js     jaquettes (officielles, ou génératives en secours)
-  assets/js/pages/*.js    logique de chaque page
+```bash
+npm install
+npm run dev
 ```
 
-### Regénérer les captures et le PDF
+Ouvrir l’adresse affichée par Next.js, généralement **http://localhost:3000**. Garder le terminal ouvert pendant la visite : l’application dépend du serveur de développement. Les pages du projet Objectif 03 ne se lancent pas en ouvrant un fichier HTML directement.
+
+### Parcours de démonstration
+
+1. Depuis **Accueil**, rechercher un jeu ou choisir **Jeux**.
+2. Dans **Recherche**, tester le texte, la plateforme, le prix maximum, les promotions et le tri.
+3. Ouvrir une fiche, par exemple **Red Dead Redemption 2**, et consulter les offres, éditions et informations.
+4. Ajouter le jeu à **Ma liste**, puis modifier sa cible de prix ou son alerte locale.
+5. Utiliser **€ / DT** dans l’en-tête pour changer la devise d’affichage.
+
+## ✨ Fonctionnalités actuelles
+
+| Parcours | Ce que l’on peut faire |
+|---|---|
+| 🏠 Accueil — `/` | Découvrir les jeux mis en avant, les offres du catalogue, les sorties à venir et lancer une recherche. |
+| 🔎 Recherche — `/search` | Rechercher par nom/studio, filtrer par plateforme, prix, promotions et disponibilité, puis trier les résultats. |
+| 🎮 Fiche jeu — `/games/<id>` | Consulter les informations du jeu, comparer les offres, voir les éditions et consulter un historique de démonstration. |
+| ❤️ Ma liste — `/wishlist` | Ajouter ou retirer des jeux, définir une cible de prix et activer/désactiver une alerte locale. L’état est gardé dans le navigateur. |
+| 🔌 API de démonstration | `GET /api/games` pour le catalogue et `GET /api/games/:id` pour une fiche. |
+
+## 🧪 Vérifier le projet
+
+```bash
+npm test
+npm run build
+npm run start
+```
+
+`npm run start` lance la version de production : exécuter d’abord `npm run build`.
+
+## 🗂️ Les autres livrables
+
+Les éléments de conception et de prototypage de l’Objectif 02 sont conservés :
+
+- Présentation PDF : [Groupe9_Projet_Web_Objectif2.pdf](livrables/Groupe9_Projet_Web_Objectif2.pdf)
+- Présentation animée : [presentation/index.html](presentation/index.html) — navigation au clavier : `←` / `→`, `Espace`, `Entrée`, `F` pour le plein écran.
+- Prototype HTML indépendant : [prototype/index.html](prototype/index.html) — touche `W` pour basculer wireframe / haute fidélité.
+
+## 🧰 Données et outils
+
+- La fixture `data/games.json` contient **14 jeux** et est régénérable avec `npm run data:export`.
+- Les informations Steam sont un relevé daté du **7 novembre 2026**. Les autres boutiques, une partie des prix et les historiques sont simulés pour la démonstration.
+- Le taux EUR/DT est indicatif (**1 € ≈ 3,4 DT**). Les alertes ne déclenchent pas d’e-mail ; la liste n’est pas synchronisée entre appareils.
+- Pour régénérer les données et les livrables de présentation, utiliser les outils de `tools/` :
 
 ```bash
 cd tools
 npm install
 npx playwright install chromium
-npm run games   # relève les données et visuels Steam → prototype/assets
-npm run shots   # captures du prototype → presentation/assets/img
-npm run pdf     # → livrables/Groupe9_Projet_Web_Objectif2.pdf
+npm run games
+npm run shots
+npm run pdf
 ```
 
-Polices (licence OFL) : Space Grotesk, DM Sans, JetBrains Mono. Icônes : Lucide (ISC). Animations : GSAP. 3D : three.js r149 (MIT).
-Jaquettes et visuels des jeux © leurs éditeurs respectifs, utilisés à titre d'illustration dans un projet étudiant non commercial.
+Pour les détails du produit, les limites de la démo et les fonctionnalités envisagées, consulter **[la description complète](description.md)**.

@@ -1,0 +1,1897 @@
+[
+  {
+    "id": "gta-v",
+    "appid": 3240220,
+    "title": "Grand Theft Auto V",
+    "edition": "Version améliorée",
+    "aliases": "GTA V GTA 5 GTAV Rockstar Los Santos",
+    "studio": "Rockstar North",
+    "publisher": "Rockstar Games",
+    "studioCity": "Édimbourg",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Online Play, Strong Language",
+    "release": "2025-03-04",
+    "releaseText": "4 mars 2025",
+    "upcoming": false,
+    "base": 29.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/gta-v/cover.jpg",
+      "hero": "assets/games/gta-v/hero.jpg",
+      "header": "assets/games/gta-v/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Los Santos et Blaine County, version améliorée : ray tracing, chargements rapides et GTA Online inclus.",
+    "description": "Découvrez Grand Theft Auto V et Grand Theft Auto Online, les blockbusters incontournables, améliorés pour une nouvelle génération avec des graphismes exceptionnels, un temps de chargement accéléré, un audio 3D et plus, ainsi que du contenu exclusif pour les joueurs de GTA Online.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 29.99,
+        "base": 29.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "epic",
+        "price": 19.79,
+        "base": 29.99
+      },
+      {
+        "edition": "standard",
+        "store": "rockstar",
+        "price": 29.99,
+        "base": 29.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 39.99,
+        "base": 39.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 39.99,
+        "base": 39.99
+      },
+      {
+        "edition": "shark",
+        "store": "epic",
+        "price": 32.99,
+        "base": 44.99
+      },
+      {
+        "edition": "shark",
+        "store": "rockstar",
+        "price": 44.99,
+        "base": 44.99
+      },
+      {
+        "store": "steam",
+        "edition": "shark",
+        "price": 44.99,
+        "base": 44.99,
+        "real": true
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 29.99,
+        "perks": [
+          "Mode histoire de GTA V",
+          "GTA Online",
+          "Version améliorée : ray tracing, DLSS et FSR, chargements rapides"
+        ]
+      },
+      {
+        "id": "shark",
+        "name": "+ Great White Shark Card",
+        "price": 44.99,
+        "perks": [
+          "Tout le contenu Standard",
+          "Carte Great White Shark : 1 250 000 GTA$ pour GTA Online"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 (latest service pack)",
+        "Processeur": "Intel® Core™ i7-4770 / AMD FX™-9590",
+        "Mémoire": "8 GB",
+        "Graphismes": "NVIDIA GeForce® GTX 1630 (4GB VRAM) / AMD Radeon™ RX 6400 (4GB VRAM)",
+        "Stockage": "105 GB"
+      },
+      "rec": {
+        "OS": "Windows 11",
+        "Processeur": "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600",
+        "Mémoire": "16 GB",
+        "Graphismes": "NVIDIA GeForce® RTX 3060 (8GB VRAM) / AMD Radeon™ RX 6600XT (8GB VRAM)",
+        "Stockage": "105 GB"
+      }
+    },
+    "updates": [
+      {
+        "title": "Take Down the Kortz Center and More High-Value Targets in The Heist Event",
+        "date": "2026-11-06",
+        "text": "Get in, get out, and make a killing in this week’s GTA Online Heist Event. Assemble a crew of familiar faces or perfect strangers, gather your gear, execute a robbery, and exfiltrate safely to earn doubled first-time com",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848664643345922"
+      },
+      {
+        "title": "Experience Halloween Thrills All Throughout October in GTA Online",
+        "date": "2026-10-05",
+        "text": "The streets of Los Santos are crawling with creepy apparitions, paranormal visions, and more this Halloween season. Prepare for a month of ghastly mayhem with vengeful Slashers roaming the streets and tides of shambling ",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656393780"
+      }
+    ],
+    "low": {
+      "price": 14.99,
+      "store": "steam",
+      "date": "2026-06-25"
+    },
+    "sales": [
+      {
+        "from": "2025-11-24T23:00:00.000Z",
+        "to": "2025-12-02T23:00:00.000Z",
+        "price": 17.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-17T23:00:00.000Z",
+        "to": "2026-01-04T23:00:00.000Z",
+        "price": 16.49,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-18T23:00:00.000Z",
+        "to": "2026-03-26T23:00:00.000Z",
+        "price": 20.99,
+        "store": "epic"
+      },
+      {
+        "from": "2026-06-24T23:00:00.000Z",
+        "to": "2026-07-08T23:00:00.000Z",
+        "price": 14.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-28T23:00:00.000Z",
+        "to": "2026-11-07T23:00:00.000Z",
+        "price": 19.79,
+        "store": "epic"
+      }
+    ],
+    "seed": 3,
+    "hours": 32,
+    "best": {
+      "edition": "standard",
+      "store": "epic",
+      "price": 19.79,
+      "base": 29.99
+    },
+    "discount": 34,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-11-24T23:00:00.000Z",
+        "price": 17.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-02T23:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-17T23:00:00.000Z",
+        "price": 16.49,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-04T23:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-18T23:00:00.000Z",
+        "price": 20.99,
+        "store": "epic"
+      },
+      {
+        "from": "2026-03-26T23:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-06-24T23:00:00.000Z",
+        "price": 14.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-08T23:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-28T23:00:00.000Z",
+        "price": 19.79,
+        "store": "epic"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 32,
+    "saleCount": 5
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "appid": 1174180,
+    "title": "Red Dead Redemption 2",
+    "aliases": "",
+    "studio": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "studioCity": "Édimbourg",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Strong Language, Violence, Gambling",
+    "release": "2019-12-05",
+    "releaseText": "5 déc. 2019",
+    "upcoming": false,
+    "base": 59.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/red-dead-redemption-2/cover.jpg",
+      "hero": "assets/games/red-dead-redemption-2/hero.jpg",
+      "header": "assets/games/red-dead-redemption-2/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "L'Ouest américain en 1899, par les créateurs de GTA V.",
+    "description": "Arthur Morgan et la bande de Van der Linde sont des hors-la-loi fugitifs. Les agents fédéraux et les chasseurs de primes sont à leurs trousses et la bande commet méfaits sur méfaits dans les terres sauvages pour survivre.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 59.99,
+        "base": 59.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "rockstar",
+        "price": 19.79,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "epic",
+        "price": 59.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 69.99,
+        "base": 69.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 69.99,
+        "base": 69.99
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 59.99,
+        "perks": [
+          "Jeu de base"
+        ]
+      },
+      {
+        "id": "ed1",
+        "name": "Ultimate Edition",
+        "price": 99.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 - 64-bit",
+        "Processeur": "Intel® Core™ i5-2500K / AMD FX-6300",
+        "Mémoire": "8 GB",
+        "Graphismes": "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "Stockage": "150 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 - 64-bit",
+        "Processeur": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+        "Mémoire": "12 GB",
+        "Graphismes": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+        "Stockage": "150 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 14.99,
+      "store": "steam",
+      "date": "2026-06-25"
+    },
+    "seed": 7,
+    "hours": 50,
+    "best": {
+      "edition": "standard",
+      "store": "rockstar",
+      "price": 19.79,
+      "base": 59.99
+    },
+    "discount": 67,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-07T08:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-14T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-03T08:00:00.000Z",
+        "price": 39.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-14T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-05-21T08:00:00.000Z",
+        "price": 14.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-05-30T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-08-19T08:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-08-28T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-30T08:00:00.000Z",
+        "price": 19.79,
+        "store": "rockstar"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 32,
+    "saleCount": 5
+  },
+  {
+    "id": "cyberpunk-2077",
+    "appid": 1091500,
+    "title": "Cyberpunk 2077",
+    "aliases": "",
+    "studio": "CD PROJEKT RED",
+    "publisher": "CD PROJEKT RED",
+    "genres": [
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Sex, Bad Language, In-game purchases",
+    "release": "2020-12-09",
+    "releaseText": "9 déc. 2020",
+    "upcoming": false,
+    "base": 59.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/cyberpunk-2077/cover.jpg",
+      "hero": "assets/games/cyberpunk-2077/hero.jpg",
+      "header": "assets/games/cyberpunk-2077/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Night City, ses implants et ses mercenaires.",
+    "description": "Cyberpunk 2077 est un JDR d'action-aventure en monde ouvert, qui se déroule à Night City, une mégalopole futuriste et sombre, obsédée par le pouvoir, la séduction et les modifications corporelles.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 59.99,
+        "base": 59.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "gog",
+        "price": 29.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "epic",
+        "price": 59.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 59.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 59.99,
+        "base": 59.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "64-bit Windows 10",
+        "Processeur": "Core i7-6700 or Ryzen 5 1600",
+        "Mémoire": "12 GB",
+        "Graphismes": "GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
+        "Stockage": "70 GB"
+      },
+      "rec": {
+        "OS": "64-bit Windows 10",
+        "Processeur": "Core i7-12700 or Ryzen 7 7800X3D",
+        "Mémoire": "16 GB",
+        "Graphismes": "GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
+        "Stockage": "70 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 23.99,
+      "store": "gog",
+      "date": "2026-06-26"
+    },
+    "seed": 13,
+    "hours": 26,
+    "best": {
+      "edition": "standard",
+      "store": "gog",
+      "price": 29.99,
+      "base": 59.99
+    },
+    "discount": 50,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-23T08:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-02T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-02-18T08:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-02-25T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-04-15T08:00:00.000Z",
+        "price": 23.99,
+        "store": "gog"
+      },
+      {
+        "from": "2026-04-25T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-22T08:00:00.000Z",
+        "price": 35.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-08-03T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-11-02T08:00:00.000Z",
+        "price": 29.99,
+        "store": "gog"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 25,
+    "saleCount": 5
+  },
+  {
+    "id": "elden-ring",
+    "appid": 1245620,
+    "title": "Elden Ring",
+    "aliases": "",
+    "studio": "FromSoftware, Inc.",
+    "publisher": "FromSoftware, Inc.",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 16,
+    "pegiDesc": "Violence, In-Game Purchases",
+    "release": "2022-02-24",
+    "releaseText": "24 févr. 2022",
+    "upcoming": false,
+    "base": 59.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/elden-ring/cover.jpg",
+      "hero": "assets/games/elden-ring/hero.jpg",
+      "header": "assets/games/elden-ring/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "L'Entre-terre, par FromSoftware et George R. R. Martin.",
+    "description": "LE RPG D'ACTION FANTASTIQUE ACCLAMÉ PAR LA CRITIQUE. Levez-vous, Sans-éclat, et puisse la grâce guider vos pas. Brandissez la puissance du Cercle d'Elden. Devenez Seigneur de l'Entre-terre.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 59.99,
+        "base": 59.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 41.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 59.99,
+        "base": 59.99
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 59.99,
+        "perks": [
+          "Jeu de base"
+        ]
+      },
+      {
+        "id": "ed1",
+        "name": "Shadow of the Erdtree Edition",
+        "price": 79.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      },
+      {
+        "id": "ed2",
+        "name": "Shadow of the Erdtree Deluxe Edition",
+        "price": 99.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10",
+        "Processeur": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+        "Mémoire": "12 GB",
+        "Graphismes": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+        "Stockage": "60 GB"
+      },
+      "rec": {
+        "OS": "Windows 10/11",
+        "Processeur": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+        "Mémoire": "16 GB",
+        "Graphismes": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+        "Stockage": "60 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 29.99,
+      "store": "steam",
+      "date": "2026-06-26"
+    },
+    "seed": 21,
+    "hours": 59,
+    "best": {
+      "edition": "standard",
+      "store": "psn",
+      "price": 41.99,
+      "base": 59.99
+    },
+    "discount": 30,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-19T08:00:00.000Z",
+        "price": 44.99,
+        "store": "steam"
+      },
+      {
+        "from": "2025-12-30T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-04T08:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-15T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-06-11T08:00:00.000Z",
+        "price": 29.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-06-21T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-12T08:00:00.000Z",
+        "price": 44.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-20T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-11-01T08:00:00.000Z",
+        "price": 41.99,
+        "store": "psn"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 40,
+    "saleCount": 5
+  },
+  {
+    "id": "007-first-light",
+    "appid": 3768760,
+    "title": "007 First Light",
+    "aliases": "",
+    "studio": "IO Interactive A/S",
+    "publisher": "IO Interactive A/S",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 16,
+    "pegiDesc": "Violence, In-Game Purchases",
+    "release": "2026-05-26",
+    "releaseText": "26 mai 2026",
+    "upcoming": false,
+    "base": 79.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/007-first-light/cover.jpg",
+      "hero": "assets/games/007-first-light/hero.jpg",
+      "header": "assets/games/007-first-light/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Les débuts de James Bond, par IO Interactive.",
+    "description": "Gagnez le matricule. 007 First Light est un jeu d’action-aventure et d’espionnage palpitant signé IO Interactive. Suivez un jeune James Bond malin, et parfois téméraire, durant son entraînement au MI6, et découvrez l’histoire des origines du plus célèbre des agents secrets.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 47.99,
+        "base": 79.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "epic",
+        "price": 79.99,
+        "base": 79.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 79.99,
+        "base": 79.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 79.99,
+        "base": 79.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "MICROSOFT WINDOWS 10/11, 64-BIT",
+        "Processeur": "INTEL CORE i5 9500, AMD RYZEN 5 3500",
+        "Mémoire": "16 GB",
+        "Graphismes": "NVIDIA GFORCE GTX 1660, AMD RX 5700, INTEL DISCRETE GPU EQUIVALENT",
+        "Stockage": "80 GB"
+      },
+      "rec": {
+        "OS": "MICROSOFT WINDOWS 10/11, 64-BIT",
+        "Processeur": "INTEL CORE i5 13500, AMD RYZEN 5 7600",
+        "Mémoire": "16 GB",
+        "Graphismes": "NVIDIA GEFORCE RTX 3060 TI, AMD RX 6700 XT, INTEL DISCRETE GPU EQUIVALENT",
+        "Stockage": "80 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 47.99,
+      "store": "steam",
+      "date": "2026-11-01"
+    },
+    "seed": 31,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 47.99,
+      "base": 79.99,
+      "real": true
+    },
+    "discount": 40,
+    "history": [
+      {
+        "from": "2026-05-25T23:00:00.000Z",
+        "price": 79.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-14T23:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-28T23:00:00.000Z",
+        "price": 79.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-13T23:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-23T23:00:00.000Z",
+        "price": 79.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-27T08:00:00.000Z",
+        "price": 47.99,
+        "store": "steam"
+      }
+    ],
+    "isLow": true,
+    "neverSold": false,
+    "verdict": "buy",
+    "gap": 0,
+    "saleCount": 3
+  },
+  {
+    "id": "no-mans-sky",
+    "appid": 275850,
+    "title": "No Man's Sky",
+    "aliases": "",
+    "studio": "Hello Games",
+    "publisher": "Hello Games",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2016-08-12",
+    "releaseText": "12 aout 2016",
+    "upcoming": false,
+    "base": 58.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/no-mans-sky/cover.jpg",
+      "hero": "assets/games/no-mans-sky/hero.jpg",
+      "header": "assets/games/no-mans-sky/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Un univers généré à l'infini, à explorer seul ou à plusieurs.",
+    "description": "No Man's Sky est un jeu de science-fiction sur l'exploration et la survie dans un univers infini généré de manière dynamique.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 23.59,
+        "base": 58.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "gog",
+        "price": 58.99,
+        "base": 58.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 58.99,
+        "base": 58.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 58.99,
+        "base": 58.99
+      },
+      {
+        "edition": "standard",
+        "store": "nintendo",
+        "price": 49.99,
+        "base": 49.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "Windows 10/11 (64-bit versions)",
+        "Processeur": "Intel Core i3",
+        "Mémoire": "8 GB",
+        "Graphismes": "Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630",
+        "Stockage": "15 GB"
+      },
+      "rec": null
+    },
+    "updates": [],
+    "low": {
+      "price": 23.59,
+      "store": "steam",
+      "date": "2026-11-01"
+    },
+    "seed": 41,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 23.59,
+      "base": 58.99,
+      "real": true
+    },
+    "discount": 60,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 58.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-01T08:00:00.000Z",
+        "price": 34.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-12T08:00:00.000Z",
+        "price": 58.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-25T08:00:00.000Z",
+        "price": 23.59,
+        "store": "steam"
+      },
+      {
+        "from": "2026-04-08T08:00:00.000Z",
+        "price": 58.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-07T08:00:00.000Z",
+        "price": 46.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-17T08:00:00.000Z",
+        "price": 58.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-28T08:00:00.000Z",
+        "price": 23.59,
+        "store": "steam"
+      }
+    ],
+    "isLow": true,
+    "neverSold": false,
+    "verdict": "buy",
+    "gap": 0,
+    "saleCount": 4
+  },
+  {
+    "id": "baldurs-gate-3",
+    "appid": 1086940,
+    "title": "Baldur's Gate 3",
+    "aliases": "",
+    "studio": "Larian Studios",
+    "publisher": "Larian Studios",
+    "genres": [
+      "Aventure",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Bad Language, Sex",
+    "release": "2023-08-03",
+    "releaseText": "3 aout 2023",
+    "upcoming": false,
+    "base": 59.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/baldurs-gate-3/cover.jpg",
+      "hero": "assets/games/baldurs-gate-3/hero.jpg",
+      "header": "assets/games/baldurs-gate-3/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Le jeu de rôle de Larian dans l'univers de Donjons et Dragons.",
+    "description": "Constituez votre groupe et retournez aux Royaumes Oubliés dans une histoire d'amitié, de trahison, de sacrifice et de survie, sur fond d'attrait du pouvoir absolu.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 59.99,
+        "base": 59.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "gog",
+        "price": 47.99,
+        "base": 59.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 69.99,
+        "base": 69.99
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 69.99,
+        "base": 69.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 64-bit",
+        "Processeur": "Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+        "Mémoire": "8 GB",
+        "Graphismes": "Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
+        "Stockage": "150 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 64-bit",
+        "Processeur": "Intel i7 8700K / AMD r5 3600",
+        "Mémoire": "16 GB",
+        "Graphismes": "Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
+        "Stockage": "150 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 41.99,
+      "store": "steam",
+      "date": "2026-06-26"
+    },
+    "seed": 51,
+    "hours": 75,
+    "best": {
+      "edition": "standard",
+      "store": "gog",
+      "price": 47.99,
+      "base": 59.99
+    },
+    "discount": 20,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-02-05T08:00:00.000Z",
+        "price": 44.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-02-14T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-04-23T08:00:00.000Z",
+        "price": 41.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-05-02T08:00:00.000Z",
+        "price": 59.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-11-03T08:00:00.000Z",
+        "price": 47.99,
+        "store": "gog"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 14,
+    "saleCount": 3
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "appid": 1030300,
+    "title": "Hollow Knight: Silksong",
+    "aliases": "",
+    "studio": "Team Cherry",
+    "publisher": "Team Cherry",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2025-09-04",
+    "releaseText": "4 sept. 2025",
+    "upcoming": false,
+    "base": 19.5,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/hollow-knight-silksong/cover.jpg",
+      "hero": "assets/games/hollow-knight-silksong/hero.jpg",
+      "header": "assets/games/hollow-knight-silksong/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Hornet, princesse protectrice, dans un royaume à gravir.",
+    "description": "Découvrez un vaste royaume maudit dans Hollow Knight: Silksong ! Explorez, combattez et survivez tout en grimpant jusqu'au sommet de terres maudites par la soie et les mélodies.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 19.5,
+        "base": 19.5,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "gog",
+        "price": 19.5,
+        "base": 19.5
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 19.99,
+        "base": 19.99
+      },
+      {
+        "edition": "standard",
+        "store": "nintendo",
+        "price": 19.99,
+        "base": 19.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 version 21H1 (build 19043) or newer",
+        "Processeur": "Intel Core i3-3240, AMD FX-4300",
+        "Mémoire": "4 GB",
+        "Graphismes": "GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)",
+        "Stockage": "8 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 version 21H1 (build 19043) or newer",
+        "Processeur": "Intel Core i5-3470",
+        "Mémoire": "8 GB",
+        "Graphismes": "GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)",
+        "Stockage": "8 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 19.5,
+      "store": "steam"
+    },
+    "sales": [],
+    "seed": 3,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 19.5,
+      "base": 19.5,
+      "real": true
+    },
+    "discount": 0,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 19.5,
+        "store": "steam"
+      }
+    ],
+    "isLow": false,
+    "neverSold": true,
+    "verdict": "new",
+    "gap": 0,
+    "saleCount": 0
+  },
+  {
+    "id": "stardew-valley",
+    "appid": 413150,
+    "title": "Stardew Valley",
+    "aliases": "",
+    "studio": "ConcernedApe",
+    "publisher": "ConcernedApe",
+    "genres": [
+      "RPG",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": 12,
+    "pegiDesc": "Violence",
+    "release": "2016-02-26",
+    "releaseText": "26 févr. 2016",
+    "upcoming": false,
+    "base": 13.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/stardew-valley/cover.jpg",
+      "hero": "assets/games/stardew-valley/hero.jpg",
+      "header": "assets/games/stardew-valley/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Reprendre la ferme de son grand-père, saison après saison.",
+    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 13.99,
+        "base": 13.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "gog",
+        "price": 13.99,
+        "base": 13.99
+      },
+      {
+        "edition": "standard",
+        "store": "nintendo",
+        "price": 13.99,
+        "base": 13.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 14.99,
+        "base": 14.99
+      }
+    ],
+    "editions": null,
+    "requirements": {
+      "min": {
+        "OS": "Windows Vista or greater",
+        "Processeur": "2 Ghz",
+        "Mémoire": "2 GB",
+        "Graphismes": "256 mb video memory, shader model 3.0+",
+        "Stockage": "500 MB"
+      },
+      "rec": null
+    },
+    "updates": [],
+    "low": {
+      "price": 8.39,
+      "store": "steam",
+      "date": "2026-06-26"
+    },
+    "seed": 71,
+    "hours": 53,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 13.99,
+      "base": 13.99,
+      "real": true
+    },
+    "discount": 0,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 13.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-25T08:00:00.000Z",
+        "price": 10.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-04-05T08:00:00.000Z",
+        "price": 13.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-05-29T08:00:00.000Z",
+        "price": 8.39,
+        "store": "steam"
+      },
+      {
+        "from": "2026-06-11T08:00:00.000Z",
+        "price": 13.99,
+        "store": "steam"
+      }
+    ],
+    "isLow": false,
+    "neverSold": false,
+    "verdict": "wait",
+    "gap": 67,
+    "saleCount": 2
+  },
+  {
+    "id": "lego-star-wars",
+    "appid": 920210,
+    "title": "LEGO Star Wars : La Saga Skywalker",
+    "aliases": "",
+    "studio": "TT Games",
+    "publisher": "Warner Bros. Games",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox Series",
+      "Switch"
+    ],
+    "pegi": 7,
+    "pegiDesc": "Violence, Fear, In-Game Purchases",
+    "release": "2022-04-05",
+    "releaseText": "5 avr. 2022",
+    "upcoming": false,
+    "base": 49.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/lego-star-wars/cover.jpg",
+      "hero": "assets/games/lego-star-wars/hero.jpg",
+      "header": "assets/games/lego-star-wars/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Les neuf films Star Wars en briques LEGO, à jouer à deux.",
+    "description": "Jouez aux neuf films de la saga Star Wars dans un jeu vidéo LEGO unique en son genre. Avec plus de 300 personnages jouables, plus de 100 véhicules et 23 planètes à explorer, jamais une galaxie lointaine, très lointaine n'aura été aussi amusante ! * Comprend le personnage classique Obi-Wan Kenobi",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 49.99,
+        "base": 49.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "epic",
+        "price": 12.49,
+        "base": 49.99
+      },
+      {
+        "edition": "standard",
+        "store": "psn",
+        "price": 49.99,
+        "base": 49.99
+      },
+      {
+        "edition": "standard",
+        "store": "nintendo",
+        "price": 49.99,
+        "base": 49.99
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 49.99,
+        "perks": [
+          "Jeu de base"
+        ]
+      },
+      {
+        "id": "ed1",
+        "name": "Édition Deluxe",
+        "price": 59.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      },
+      {
+        "id": "ed2",
+        "name": "Galactic Edition",
+        "price": 69.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 64-bit",
+        "Processeur": "Intel Core i5-2400 or AMD Ryzen 3 1200",
+        "Mémoire": "8 GB",
+        "Graphismes": "GeForce GTX 750 Ti or Radeon HD 7850",
+        "Stockage": "40 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 64-bit",
+        "Processeur": "Intel Core i5-6600 or AMD Ryzen 3 3100",
+        "Mémoire": "8 GB",
+        "Graphismes": "GeForce GTX 780 or Radeon R9 290",
+        "Stockage": "40 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 12.49,
+      "store": "epic",
+      "date": "2026-11-03"
+    },
+    "seed": 81,
+    "hours": 23,
+    "best": {
+      "edition": "standard",
+      "store": "epic",
+      "price": 12.49,
+      "base": 49.99
+    },
+    "discount": 75,
+    "history": [
+      {
+        "from": "2025-11-07T08:00:00.000Z",
+        "price": 49.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-01T08:00:00.000Z",
+        "price": 36.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-01-10T08:00:00.000Z",
+        "price": 49.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-23T08:00:00.000Z",
+        "price": 39.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-03-30T08:00:00.000Z",
+        "price": 49.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-07-01T08:00:00.000Z",
+        "price": 12.49,
+        "store": "epic"
+      },
+      {
+        "from": "2026-07-15T08:00:00.000Z",
+        "price": 49.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-10T08:00:00.000Z",
+        "price": 39.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-09-17T08:00:00.000Z",
+        "price": 49.99,
+        "store": "steam"
+      },
+      {
+        "from": "2026-10-27T08:00:00.000Z",
+        "price": 12.49,
+        "store": "epic"
+      }
+    ],
+    "isLow": true,
+    "neverSold": false,
+    "verdict": "buy",
+    "gap": 0,
+    "saleCount": 5
+  },
+  {
+    "id": "forza-horizon-6",
+    "appid": 2483190,
+    "title": "Forza Horizon 6",
+    "aliases": "",
+    "studio": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "Course automobile",
+      "Simulation"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": 3,
+    "pegiDesc": null,
+    "release": "2026-05-18",
+    "releaseText": "18 mai 2026",
+    "upcoming": false,
+    "base": 69.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/forza-horizon-6/cover.jpg",
+      "hero": "assets/games/forza-horizon-6/hero.jpg",
+      "header": "assets/games/forza-horizon-6/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Le festival Horizon s'installe au Japon.",
+    "description": "Découvrez les paysages à couper le souffle du Japon au volant de plus de 550 voitures réelles et devenez une légende de la course automobile dans la plus grande aventure motorisée Forza Horizon à ce jour.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 69.99,
+        "base": 69.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 69.99,
+        "base": 69.99
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 69.99,
+        "perks": [
+          "Jeu de base"
+        ]
+      },
+      {
+        "id": "ed1",
+        "name": "Deluxe Edition",
+        "price": 99.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      },
+      {
+        "id": "ed2",
+        "name": "Premium Edition",
+        "price": 119.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus additionnels de l'édition"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 22H2 (version 19045) or higher",
+        "Processeur": "Intel i5-8400 OR AMD Ryzen 5 1600",
+        "Mémoire": "16 GB",
+        "Graphismes": "Nvidia GTX 1650 OR AMD RX 6500 XT OR Intel Arc A380",
+        "Stockage": "167 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 22H2 (version 19045) or higher",
+        "Processeur": "Intel i5-12400F OR AMD Ryzen 5 5600X",
+        "Mémoire": "16 GB",
+        "Graphismes": "NVIDIA RTX 3060 Ti OR AMD RX 6700 XT OR Intel Arc A580",
+        "Stockage": "167 GB"
+      }
+    },
+    "updates": [],
+    "low": {
+      "price": 69.99,
+      "store": "steam"
+    },
+    "sales": [],
+    "seed": 3,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 69.99,
+      "base": 69.99,
+      "real": true
+    },
+    "discount": 0,
+    "history": [
+      {
+        "from": "2026-05-17T23:00:00.000Z",
+        "price": 69.99,
+        "store": "steam"
+      }
+    ],
+    "isLow": false,
+    "neverSold": true,
+    "verdict": "new",
+    "gap": 0,
+    "saleCount": 0
+  },
+  {
+    "id": "fable",
+    "appid": 2769570,
+    "title": "Fable",
+    "aliases": "",
+    "studio": "Playground Games",
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": 18,
+    "pegiDesc": "Violence, Bad Language",
+    "release": "2027-02-23",
+    "releaseText": "23 févr. 2027",
+    "upcoming": true,
+    "base": 69.99,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/fable/cover.jpg",
+      "hero": "assets/games/fable/hero.jpg",
+      "header": "assets/games/fable/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Le retour d'Albion, par Playground Games.",
+    "description": "Devenez le héros ou l'héroïne que vous voulez dans ce jeu d'action-RPG immersif en monde ouvert, où chaque décision façonne votre aventure, où la réputation fait loi, et où les fins de contes de fées ne sont jamais garanties.",
+    "offers": [
+      {
+        "store": "steam",
+        "edition": "standard",
+        "price": 69.99,
+        "base": 69.99,
+        "real": true
+      },
+      {
+        "edition": "standard",
+        "store": "xbox",
+        "price": 69.99,
+        "base": 69.99
+      },
+      {
+        "edition": "premium",
+        "store": "xbox",
+        "price": 99.99,
+        "base": 99.99
+      },
+      {
+        "store": "steam",
+        "edition": "premium",
+        "price": 99.99,
+        "base": 99.99,
+        "real": true
+      }
+    ],
+    "editions": [
+      {
+        "id": "standard",
+        "name": "Standard",
+        "price": 69.99,
+        "perks": [
+          "Jeu de base"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "Premium",
+        "price": 99.99,
+        "perks": [
+          "Jeu de base",
+          "Contenus de l'édition Premium (détail sur la page officielle)"
+        ]
+      }
+    ],
+    "requirements": {
+      "min": {
+        "OS": "Windows 10 22H2",
+        "Processeur": "AMD Ryzen 5 2600 / Intel i7‐6850K",
+        "Mémoire": "12 GB",
+        "Graphismes": "AMD Radeon RX 6600 / Nvidia RTX 5050 / NVIDIA GeForce RTX 2060 / Intel A580",
+        "Stockage": "135 GB"
+      },
+      "rec": {
+        "OS": "Windows 10 22H2",
+        "Processeur": "AMD Ryzen 5 5600 / Intel i5‐11600KF",
+        "Mémoire": "16 GB",
+        "Graphismes": "AMD Radeon RX 6700 XT/ NVIDIA GeForce RTX 3060TI",
+        "Stockage": "135 GB"
+      }
+    },
+    "updates": [],
+    "seed": 3,
+    "best": {
+      "store": "steam",
+      "edition": "standard",
+      "price": 69.99,
+      "base": 69.99,
+      "real": true
+    },
+    "discount": 0
+  },
+  {
+    "id": "kingdom-hearts-iv",
+    "appid": 3216600,
+    "title": "Kingdom Hearts IV",
+    "aliases": "",
+    "studio": "Square Enix",
+    "publisher": "Square Enix",
+    "genres": [
+      "Action",
+      "Aventure"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "pegi": 12,
+    "pegiDesc": "Classification provisoire",
+    "release": "2027",
+    "releaseText": "2027",
+    "upcoming": true,
+    "base": null,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/kingdom-hearts-iv/cover.jpg",
+      "hero": "assets/games/kingdom-hearts-iv/hero.jpg",
+      "header": "assets/games/kingdom-hearts-iv/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Sora découvre Quadratum, un monde aux allures de ville réelle.",
+    "description": "Notre héros Sora se réveille dans le monde de Quadratum. Alors qu’il cherche un moyen de rentrer dans son monde, Donald et Dingo partent pour les Enfers à sa recherche. Maniez la keyblade dans des combats palpitants adaptés à votre style de jeu.",
+    "offers": [],
+    "editions": null,
+    "requirements": null,
+    "updates": [],
+    "seed": 3,
+    "best": null,
+    "discount": 0
+  },
+  {
+    "id": "clockwork-revolution",
+    "appid": 2439280,
+    "title": "Clockwork Revolution",
+    "aliases": "",
+    "studio": "inXile Entertainment",
+    "publisher": "Xbox Game Studios",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox Series"
+    ],
+    "pegi": null,
+    "pegiDesc": null,
+    "release": "2027",
+    "releaseText": "2027",
+    "upcoming": true,
+    "base": null,
+    "mainStore": "steam",
+    "img": {
+      "cover": "assets/games/clockwork-revolution/cover.jpg",
+      "hero": "assets/games/clockwork-revolution/hero.jpg",
+      "header": "assets/games/clockwork-revolution/header.jpg"
+    },
+    "cover": {
+      "c1": "#1f2942",
+      "c2": "#3a4768",
+      "c3": "#c8f169",
+      "motif": "orbit"
+    },
+    "tagline": "Un RPG steampunk d'inXile où chaque choix réécrit l'histoire.",
+    "description": "CHANGE LE PASSÉ. CONTRÔLE L’AVENIR. Modifie le cours de l'histoire et réécris l'avenir dans ce RPG steampunk à la première personne.",
+    "offers": [],
+    "editions": null,
+    "requirements": null,
+    "updates": [],
+    "seed": 3,
+    "best": null,
+    "discount": 0
+  }
+]
