@@ -1,2 +1,7 @@
-node_modules/
-.DS_Store
+node_modules
+client/dist
+server/data/state.json
+server/data/*.tmp
+server/.env
+.env
+*.log
