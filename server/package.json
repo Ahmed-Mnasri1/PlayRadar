@@ -1,0 +1,20 @@
+{
+  "name": "playradar-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "demo": "node --watch src/index.js --demo",
+    "test": "node --test",
+    "import:games": "node scripts/import-steam.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sharp": "^0.34.5"
+  }
+}
