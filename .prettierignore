@@ -1,0 +1,11 @@
+dist
+node_modules
+prototype
+presentation
+tools
+livrables
+server/data
+package-lock.json
+*.md
+server/src/catalog.json
+server/src/catalog.imported.json
