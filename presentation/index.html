@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PlayRadar — Objectif 02, groupe 9</title>
+  <meta name="description" content="Projet Web Sup'Com, objectif 02 : arborescence, prototypes, charte graphique et choix technologiques de PlayRadar. Groupe 9 : Ahmed Mnasri et Yessine Rekik." />
+  <link rel="stylesheet" href="assets/css/deck.css" />
+</head>
+<body>
+<div class="deck" data-deck>
+<div class="stage" data-stage>
+
+<!-- 01 · Couverture : anneau 3D de vraies jaquettes autour du radar -->
+<section class="slide dark s-cover" data-title="Couverture">
+  <canvas class="gl" data-gl="ring" aria-hidden="true"></canvas>
+  <div class="cover">
+    <h1 class="brand" data-a="letters"><span class="w">Play</span><span class="w lime">Radar</span></h1>
+    <p class="cover__sub" data-a="up" data-at="0.7">Objectif 02<br>Conception, arborescence et prototypage</p>
+    <p class="cover__team" data-a="up" data-at="0.9">Groupe 9<br><span>Ahmed Mnasri et Yessine Rekik</span></p>
+  </div>
+</section>
+
+<!-- 02 · Sommaire -->
+<section class="slide ivory s-toc" data-title="Sommaire">
+  <div class="toc">
+    <h2 class="title" data-a="up">Ce que contient ce livrable</h2>
+    <p class="lede" data-a="up">Après le cadrage de l’objectif 01, nous avons conçu le site page par page, avant d’écrire l’application.</p>
+    <ol class="toc__list" data-a="lines">
+      <li><b>Arborescence</b><span>12 pages, chacune à trois clics au plus</span><em>3</em></li>
+      <li><b>Prototypes</b><span>4 pages cliquables, en wireframe puis en haute fidélité</span><em>5</em></li>
+      <li><b>Charte graphique</b><span>Couleurs, typographies et composants</span><em>8</em></li>
+      <li><b>Choix technologiques</b><span>Next.js, Express et PostgreSQL</span><em>10</em></li>
+    </ol>
+  </div>
+  <figure class="toc__shot" data-a="wipe" aria-hidden="true"><img src="assets/img/hi-accueil-full.jpg" alt=""></figure>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 03 · Arborescence : plan de métro -->
+<section class="slide dark s-map" data-title="Arborescence">
+  <h2 class="title" data-a="up">L’arborescence du site</h2>
+  <p class="lede" data-a="up">12 pages sur trois niveaux. L’en-tête (recherche, Sorties, Promos, Ma liste, € / DT) et le pied de page sont présents partout.</p>
+  <svg class="metro" viewBox="0 0 1664 720" data-fx="metro" role="img" aria-label="Arborescence : Accueil, sept pages de premier niveau, puis la fiche jeu, le profil et la liste">
+    <g class="m-lines">
+      <path class="ln ln--proto" d="M150 375 C360 375 350 90 560 90"/>
+      <path class="ln" d="M150 375 C360 375 350 185 560 185"/>
+      <path class="ln" d="M150 375 C360 375 350 280 560 280"/>
+      <path class="ln" d="M150 375 H560"/>
+      <path class="ln ln--v2" d="M150 375 C360 375 350 470 560 470"/>
+      <path class="ln" d="M150 375 C360 375 350 565 560 565"/>
+      <path class="ln ln--proto" d="M150 375 C360 375 350 660 560 660"/>
+      <path class="ln ln--proto" d="M790 90 H1010"/>
+      <path class="ln ln--x" d="M770 185 C890 185 900 100 1000 92"/>
+      <path class="ln ln--x" d="M760 280 C900 280 910 110 1000 96"/>
+      <path class="ln" d="M880 660 C945 660 945 610 1010 610"/>
+      <path class="ln ln--proto" d="M880 660 C945 660 945 690 1010 690"/>
+      <path class="ln ln--sub" d="M1190 90 C1260 90 1260 30 1330 30"/>
+      <path class="ln ln--sub" d="M1190 90 C1260 90 1260 76 1330 76"/>
+      <path class="ln ln--sub" d="M1190 90 C1260 90 1260 122 1330 122"/>
+      <path class="ln ln--sub" d="M1190 90 C1260 90 1260 168 1330 168"/>
+      <path class="ln ln--sub" d="M1190 90 C1260 90 1260 214 1330 214"/>
+      <path class="ln ln--sub ln--v2" d="M1190 90 C1260 90 1260 260 1330 260"/>
+    </g>
+    <g class="m-stops">
+      <circle class="st-root" cx="150" cy="375" r="15"/><circle class="st-root-in" cx="150" cy="375" r="6"/>
+      <text class="t-root" x="122" y="372" text-anchor="end">Accueil</text><text class="t-route" x="122" y="402" text-anchor="end">/</text>
+
+      <circle class="st st--proto" cx="560" cy="90" r="9"/><text class="t" x="584" y="98">Recherche <tspan class="t-route">/jeux</tspan></text>
+      <circle class="st" cx="560" cy="185" r="7"/><text class="t" x="584" y="193">Promos <tspan class="t-route">/promos</tspan></text>
+      <circle class="st" cx="560" cy="280" r="7"/><text class="t" x="584" y="288">Sorties <tspan class="t-route">/sorties</tspan></text>
+      <circle class="st" cx="560" cy="375" r="7"/><text class="t" x="584" y="383">Payer depuis la Tunisie <tspan class="t-route">/guide</tspan></text>
+      <circle class="st st--v2" cx="560" cy="470" r="7"/><text class="t t--v2" x="584" y="478">Actualités <tspan class="t-route">version 2</tspan></text>
+      <circle class="st" cx="560" cy="565" r="7"/><text class="t" x="584" y="573">Connexion <tspan class="t-route">/connexion</tspan></text>
+      <circle class="st st--proto" cx="560" cy="660" r="9"/><text class="t" x="584" y="668">Mon compte <tspan class="t-route">/compte</tspan></text>
+
+      <circle class="st st--proto st--key" cx="1010" cy="90" r="11"/><text class="t t--key" x="1034" y="99">Fiche jeu</text>
+      <circle class="st" cx="1010" cy="610" r="7"/><text class="t" x="1034" y="618">Profil et préférences</text>
+      <circle class="st st--proto" cx="1010" cy="690" r="9"/><text class="t" x="1034" y="698">Ma liste et alertes</text>
+
+      <circle class="st st--sm" cx="1330" cy="30" r="5"/><text class="t-sub" x="1348" y="36">Comparateur de prix</text>
+      <circle class="st st--sm" cx="1330" cy="76" r="5"/><text class="t-sub" x="1348" y="82">Historique</text>
+      <circle class="st st--sm" cx="1330" cy="122" r="5"/><text class="t-sub" x="1348" y="128">Éditions</text>
+      <circle class="st st--sm" cx="1330" cy="168" r="5"/><text class="t-sub" x="1348" y="174">À propos</text>
+      <circle class="st st--sm" cx="1330" cy="214" r="5"/><text class="t-sub" x="1348" y="220">Configuration</text>
+      <circle class="st st--sm st--v2" cx="1330" cy="260" r="5"/><text class="t-sub t--v2" x="1348" y="266">Avis (version 2)</text>
+
+      <text class="t-note" x="1010" y="470">Les promos, les sorties et la liste</text>
+      <text class="t-note" x="1010" y="498">mènent aussi à la fiche jeu.</text>
+    </g>
+    <g class="m-legend" transform="translate(1330 470)">
+      <circle class="st st--proto" cx="8" cy="0" r="8"/><text class="t-leg" x="28" y="6">Prototypée</text>
+      <circle class="st" cx="8" cy="40" r="7"/><text class="t-leg" x="28" y="46">Version 1</text>
+      <circle class="st st--v2" cx="8" cy="80" r="7"/><text class="t-leg" x="28" y="86">Version 2</text>
+    </g>
+  </svg>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 04 · Trois clics au plus -->
+<section class="slide ivory s-paths" data-title="Parcours" data-fx="clicks">
+  <h2 class="title" data-a="up">Trois clics au plus</h2>
+  <p class="lede" data-a="up">Trois questions de nos profils, et le chemin le plus court pour y répondre.</p>
+  <div class="paths">
+    <div class="prow">
+      <div class="prow__who"><b style="--c:#9fcc3a">Yassine</b><span>Ce prix est-il vraiment bas ?</span></div>
+      <div class="pline">
+        <i class="pline__fill"></i><i class="pline__dot"></i>
+        <span class="stop"><i></i>Accueil</span>
+        <span class="stop stop--c" data-n="1"><i></i>Suggestion « GTA V »</span>
+        <span class="stop stop--end"><i></i>Verdict et historique</span>
+      </div>
+      <div class="prow__end"><img src="assets/img/games/gta-v.jpg" alt=""><b data-count="1">1</b><small>clic</small></div>
+    </div>
+    <div class="prow">
+      <div class="prow__who"><b style="--c:#ff8a3d">Sarra</b><span>Quelle édition précommander ?</span></div>
+      <div class="pline">
+        <i class="pline__fill"></i><i class="pline__dot"></i>
+        <span class="stop"><i></i>Accueil</span>
+        <span class="stop stop--c" data-n="1"><i></i>Sorties</span>
+        <span class="stop stop--c" data-n="2"><i></i>Fable</span>
+        <span class="stop stop--c stop--end" data-n="3"><i></i>Onglet Éditions</span>
+      </div>
+      <div class="prow__end"><img src="assets/img/games/fable.jpg" alt=""><b data-count="3">3</b><small>clics</small></div>
+    </div>
+    <div class="prow">
+      <div class="prow__who"><b style="--c:#6f9bff">Karim</b><span>Combien en dinars, et où payer ?</span></div>
+      <div class="pline">
+        <i class="pline__fill"></i><i class="pline__dot"></i>
+        <span class="stop"><i></i>Accueil</span>
+        <span class="stop stop--c" data-n="1"><i></i>Carte « LEGO Star Wars »</span>
+        <span class="stop stop--c stop--end" data-n="2"><i></i>Payer depuis la Tunisie</span>
+      </div>
+      <div class="prow__end"><img src="assets/img/games/lego-star-wars.jpg" alt=""><b data-count="2">2</b><small>clics</small></div>
+    </div>
+  </div>
+  <p class="paths__why" data-a="up">La recherche est dans l’en-tête de chaque page, toutes les cartes de jeu sont cliquables et la fiche a sa propre sous-navigation.</p>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 05 · Wireframes -->
+<section class="slide ivory s-wire" data-title="Wireframes">
+  <div class="wire">
+    <div class="wire__grid" data-a="stagger">
+      <figure class="bf bf--lo"><figcaption>playradar.tn</figcaption><img src="assets/img/lo-accueil.jpg" alt="Wireframe de l’accueil"></figure>
+      <figure class="bf bf--lo"><figcaption>playradar.tn/jeux</figcaption><img src="assets/img/lo-recherche.jpg" alt="Wireframe de la recherche"></figure>
+      <figure class="bf bf--lo"><figcaption>playradar.tn/jeux/grand-theft-auto-v</figcaption><img src="assets/img/lo-jeu.jpg" alt="Wireframe de la fiche jeu"></figure>
+      <figure class="bf bf--lo"><figcaption>playradar.tn/compte/liste</figcaption><img src="assets/img/lo-liste.jpg" alt="Wireframe de Ma liste"></figure>
+    </div>
+    <div class="wire__text">
+      <h2 class="title" data-a="up">Le wireframe d’abord</h2>
+      <p class="lede" data-a="up">En noir et blanc, on valide la place de chaque bloc avant de parler de couleurs.</p>
+      <dl class="zones" data-a="up">
+        <dt>En-tête</dt><dd>Logo, menu et barre de recherche</dd>
+        <dt>Contenu</dt><dd>Cartes de jeux, tableau des prix, graphique</dd>
+        <dt>Actions</dt><dd>Comparer, créer une alerte, voir l’offre</dd>
+        <dt>Pied de page</dt><dd>Liens secondaires et mentions</dd>
+      </dl>
+      <p class="wire__note" data-a="up">Le wireframe et la maquette partagent le même code : la touche W du prototype passe de l’un à l’autre.</p>
+    </div>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 06 · Visite de la fiche GTA V (étapes au clavier) -->
+<section class="slide dark s-tour" data-title="Fiche jeu" data-fx="tour" data-steps="5">
+  <img class="tour__bg" src="assets/img/games/gta-v-hero.jpg" alt="" aria-hidden="true">
+  <div class="tour">
+    <figure class="bf bf--dark tour__frame" data-a="pop">
+      <figcaption>playradar.tn/jeux/grand-theft-auto-v</figcaption>
+      <div class="tour__view">
+        <div class="tour__page" data-page>
+          <img class="tour__hi" src="assets/img/hi-jeu-full.jpg" alt="Fiche de GTA V en haute fidélité">
+          <img class="tour__lo" src="assets/img/lo-jeu-full.jpg" alt="" data-lo>
+          <span class="tour__scan" data-scan></span>
+          <span class="tour__hl" data-hl></span>
+        </div>
+      </div>
+    </figure>
+    <div class="tour__side">
+      <h2 class="title" data-a="up">La fiche de GTA V</h2>
+      <ol class="calls" data-calls data-a="up">
+        <li><b>Le verdict choisit le bouton</b><span>Mieux vaut attendre : l’action principale devient « Créer une alerte ».</span></li>
+        <li><b>Les boutiques côte à côte</b><span>Prix Steam réel, remise, équivalent en dinars. Le moins cher passe en tête.</span></li>
+        <li><b>Douze mois d’historique</b><span>Courbe en escalier et plus bas historique en pointillés.</span></li>
+        <li><b>Les éditions</b><span>Standard ou avec la Great White Shark Card, au meilleur prix.</span></li>
+        <li><b>Payer depuis la Tunisie</b><span>Trois solutions à côté du prix, pensées pour Karim.</span></li>
+      </ol>
+    </div>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 07 · Mur d’écrans en 3D -->
+<section class="slide ivory s-wall" data-title="Écrans" data-fx="wall">
+  <h2 class="title" data-a="up">Trois autres écrans, sur ordinateur et sur mobile</h2>
+  <div class="wall">
+    <figure class="wall__s"><img src="assets/img/hi-suggest.jpg" alt="Accueil avec la recherche instantanée"></figure>
+    <figure class="wall__s"><img src="assets/img/hi-recherche.jpg" alt="Recherche et filtres"></figure>
+    <figure class="wall__s"><img src="assets/img/hi-liste.jpg" alt="Ma liste et alertes"></figure>
+  </div>
+  <div class="wall__low">
+    <div class="phones">
+      <figure class="phone"><img src="assets/img/m-accueil.jpg" alt="Accueil sur mobile"></figure>
+      <figure class="phone"><img src="assets/img/m-jeu.jpg" alt="Fiche jeu sur mobile"></figure>
+      <figure class="phone"><img src="assets/img/m-liste.jpg" alt="Ma liste sur mobile"></figure>
+    </div>
+    <dl class="feats" data-a="up">
+      <div><dt>Recherche instantanée</dt><dd>Les suggestions et les prix arrivent dès la première lettre.</dd></div>
+      <div><dt>Filtres sans rechargement</dt><dd>Plateforme, genre, prix, PEGI. L’adresse garde la recherche.</dd></div>
+      <div><dt>Euros ou dinars</dt><dd>Un bouton de l’en-tête convertit tous les prix du site.</dd></div>
+      <div><dt>Vraies données</dt><dd>Titres, visuels, éditions et actualités viennent de l’API Steam.</dd></div>
+      <div><dt>Mobile d’abord</dt><dd>Barre d’onglets en bas, prix et alerte à portée de pouce.</dd></div>
+      <div><dt>Alertes modifiables</dt><dd>Prix cible, pause et suppression directement dans la liste.</dd></div>
+    </dl>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 08 · Couleurs et typographies -->
+<section class="slide dark s-color" data-title="Couleurs et typographies" data-fx="bands">
+  <div class="bands" aria-label="Palette">
+    <div class="band" style="--c:#0E1320;--t:#EEF1F6"><span class="band__k">Le fond</span><b>Nuit</b><code>#0E1320</code></div>
+    <div class="band" style="--c:#182033;--t:#EEF1F6"><span class="band__k">Les cartes</span><b>Panneau</b><code>#182033</code></div>
+    <div class="band" style="--c:#C8F169;--t:#0E1320"><span class="band__r"><em data-count="14.3">14,3</em>:1</span><span class="band__k">Actions et prix</span><b>Radar</b><code>#C8F169</code></div>
+    <div class="band" style="--c:#FF8A3D;--t:#0E1320"><span class="band__r"><em data-count="7.9">7,9</em>:1</span><span class="band__k">Promos et attente</span><b>Signal</b><code>#FF8A3D</code></div>
+    <div class="band" style="--c:#F3F1EC;--t:#161B26"><span class="band__r"><em data-count="16.4">16,4</em>:1</span><span class="band__k">Fonds clairs</span><b>Ivoire</b><code>#F3F1EC</code></div>
+  </div>
+  <div class="type">
+    <h2 class="title" data-a="up">Couleurs et typographies</h2>
+    <p class="lede" data-a="up">Les rapports de contraste sont mesurés sur le fond Nuit.</p>
+    <div class="type__row" data-a="up">
+      <p class="sp sp--display">Grand Theft Auto V</p>
+      <p class="type__meta"><b>Space Grotesk</b> pour les titres, de 24 à 72 px</p>
+    </div>
+    <div class="type__row" data-a="up">
+      <p class="sp sp--text">Los Santos et Blaine County en version améliorée, à comparer avant d’acheter.</p>
+      <p class="type__meta"><b>DM Sans</b> pour les textes et les boutons, de 14 à 18 px</p>
+    </div>
+    <div class="type__row" data-a="up">
+      <p class="sp sp--mono"><span class="lime">19,79 €</span> <span class="orange">−34 %</span> 67 DT</p>
+      <p class="type__meta"><b>JetBrains Mono</b> pour les prix, chiffres de largeur égale</p>
+    </div>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 09 · Composants -->
+<section class="slide dark s-comp" data-title="Composants" data-fx="spec">
+  <h2 class="title" data-a="up">Les composants</h2>
+  <p class="lede" data-a="up">Extraits tels quels du prototype. Chaque page assemble ces pièces.</p>
+  <div class="spec">
+    <div class="spec__fig">
+      <dl class="spec__notes">
+        <div style="top:30px"><dt>Verdict</dt><dd>Sa couleur suit la décision : attendre, bonne affaire ou jamais soldé.</dd></div>
+        <div style="top:150px"><dt>Prix</dt><dd>En JetBrains Mono, pour garder les chiffres alignés.</dd></div>
+        <div style="top:270px"><dt>Jauge</dt><dd>Situe le prix entre le plus bas historique et le prix de base.</dd></div>
+        <div style="top:430px"><dt>Action principale</dt><dd>En Radar, une seule par écran.</dd></div>
+      </dl>
+      <svg class="spec__lines" viewBox="0 0 900 600" aria-hidden="true" data-fx-lines>
+        <path d="M372 44 H420 L466 50"/><path d="M372 164 H420 L466 112"/><path d="M372 284 H420 L466 223"/><path d="M372 444 H420 L466 397"/>
+        <circle cx="470" cy="50" r="6"/><circle cx="470" cy="112" r="6"/><circle cx="470" cy="223" r="6"/><circle cx="470" cy="397" r="6"/>
+      </svg>
+      <img class="spec__decide" src="assets/img/ui-decide.png" alt="Carte de décision de la fiche GTA V">
+    </div>
+    <div class="spec__kit">
+      <div class="kit" data-a="up">
+        <h3>Boutons</h3>
+        <div class="kit__row"><span class="b b--primary">Créer une alerte</span><span class="b b--ghost">Voir l’offre</span></div>
+        <div class="kit__row kit__states">
+          <span class="b b--primary b--sm">Repos</span><span class="b b--primary b--sm is-hover">Survol</span><span class="b b--primary b--sm is-press">Appui</span><span class="b b--primary b--sm is-focus">Focus</span><span class="b b--primary b--sm is-off">Inactif</span>
+        </div>
+      </div>
+      <div class="kit" data-a="up">
+        <h3>Badges</h3>
+        <div class="kit__row kit__wrap">
+          <span class="bd bd--signal">−34 %</span>
+          <span class="bd bd--low"><span data-icon="trending-down"></span>Plus bas historique</span>
+          <span class="bd bd--sky"><span data-icon="calendar-clock"></span>Précommande</span>
+          <span class="pegi">PEGI 18</span>
+          <span class="vd vd--buy"><span data-icon="check"></span>Bonne affaire</span>
+          <span class="vd vd--wait"><span data-icon="clock"></span>Mieux vaut attendre</span>
+        </div>
+      </div>
+      <div class="kit kit--split" data-a="up">
+        <img class="kit__card" src="assets/img/ui-card.png" alt="Carte de jeu LEGO Star Wars">
+        <div>
+          <h3>Icônes</h3>
+          <div class="icons">
+            <span data-icon="search"></span><span data-icon="bell-ring"></span><span data-icon="bookmark"></span><span data-icon="chart-line"></span>
+            <span data-icon="trending-down"></span><span data-icon="calendar-clock"></span><span data-icon="store"></span><span data-icon="credit-card"></span>
+            <span data-icon="gift"></span><span data-icon="globe"></span><span data-icon="monitor"></span><span data-icon="gamepad-2"></span>
+          </div>
+          <p class="kit__small">Lucide, trait de 1,75 px.</p>
+          <h3 class="kit__gap">Espacements</h3>
+          <div class="scale"><i style="--s:4px"></i><i style="--s:8px"></i><i style="--s:12px"></i><i style="--s:16px"></i><i style="--s:24px"></i><i style="--s:32px"></i><i style="--s:48px"></i></div>
+          <p class="kit__small">Grille de 4 px. Rayons de 6 à 20 px selon la taille de l’élément.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 10 · Architecture : flux de données animé sur canvas -->
+<section class="slide ivory s-tech" data-title="Architecture" data-fx="pipe">
+  <h2 class="title" data-a="up">L’architecture</h2>
+  <p class="lede" data-a="up">Un seul langage, JavaScript, du relevé des prix jusqu’à la page affichée.</p>
+  <div class="pipe pipe--lg">
+    <canvas class="pipe__cv" data-pipe data-y="176" aria-hidden="true"></canvas>
+    <div class="pipe__st" style="--x:0"><b>API publiques</b><span>Steam, IGDB, IsThereAnyDeal, CheapShark</span></div>
+    <div class="pipe__st" style="--x:1"><b>Collecteur</b><span>node-cron</span></div>
+    <div class="pipe__st" style="--x:2"><b>PostgreSQL</b><span>avec Prisma</span></div>
+    <div class="pipe__st" style="--x:3"><b>API REST</b><span>Node.js et Express</span></div>
+    <div class="pipe__st pipe__st--end" style="--x:4"><b>Site web</b><span>Next.js, React, Tailwind</span></div>
+    <div class="pipe__mail"><b>Alertes</b><span>e-mail envoyé par Nodemailer</span></div>
+  </div>
+  <ol class="flow-steps" data-a="stagger">
+    <li>Chaque matin à 6 h, le collecteur interroge les API des boutiques.</li>
+    <li>Les prix du jour s’ajoutent à l’historique de chaque jeu.</li>
+    <li>Si un prix passe sous la cible d’un utilisateur, l’e-mail part.</li>
+    <li>Le site lit les fiches et les prix à travers l’API REST.</li>
+  </ol>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 11 · Pourquoi ces outils -->
+<section class="slide ivory s-why" data-title="Pourquoi ces outils">
+  <h2 class="title" data-a="up">Pourquoi ces outils</h2>
+  <p class="lede" data-a="up">Des outils répandus et bien documentés, dans un seul langage pour tout le binôme.</p>
+  <div class="tech">
+    <dl class="why" data-a="lines">
+      <div><dt>Next.js</dt><dd>Les fiches sont rendues côté serveur, donc trouvables sur Google. Les dossiers de routes reprennent l’arborescence.</dd></div>
+      <div><dt>Tailwind CSS</dt><dd>Nos couleurs, rayons et espacements deviennent le thème : le prototype se traduit presque ligne à ligne.</dd></div>
+      <div><dt>Recharts</dt><dd>Gère nativement la courbe en escalier de l’historique des prix.</dd></div>
+      <div><dt>Express</dt><dd>Une API REST simple, écrite dans le même langage que l’interface.</dd></div>
+      <div><dt>PostgreSQL</dt><dd>Jeux, boutiques et prix sont liés entre eux, chaque prix est daté et indexé.</dd></div>
+    </dl>
+    <div class="avoid" data-a="up">
+      <h3>Ce que nous évitons</h3>
+      <p><s>Microservices</s>Un seul serveur Express suffit à notre trafic.</p>
+      <p><s>Redux</s>L’état reste local à chaque page.</p>
+      <p><s>Kubernetes</s>Vercel et Render, en offre gratuite.</p>
+    </div>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 12 · Du prototype au code -->
+<section class="slide dark s-code" data-title="Du prototype au code" data-fx="map">
+  <h2 class="title" data-a="up">Du prototype au code</h2>
+  <p class="lede" data-a="up">Chaque fichier du prototype a déjà sa place dans l’application Next.js.</p>
+  <div class="cmap">
+    <svg class="cmap__lines" viewBox="0 0 1000 600" aria-hidden="true">
+      <path d="M290 26 H560"/><path d="M290 94 H560"/><path d="M290 162 H560"/><path d="M290 230 H560"/>
+      <path d="M290 332 H560"/><path d="M290 400 H560"/><path d="M290 468 H560"/><path d="M290 536 H560"/>
+    </svg>
+    <ul class="cmap__l">
+      <li style="top:8px">index.html</li><li style="top:76px">recherche.html</li><li style="top:144px">jeu.html</li><li style="top:212px">liste.html</li>
+      <li style="top:314px">gameCard()</li><li style="top:382px">priceChart()</li><li style="top:450px">tokens.css</li><li style="top:518px">fetch-games.mjs</li>
+    </ul>
+    <ul class="cmap__r">
+      <li style="top:8px">app/page.jsx</li><li style="top:76px">app/jeux/page.jsx</li><li style="top:144px">app/jeux/[slug]/page.jsx</li><li style="top:212px">app/compte/liste/page.jsx</li>
+      <li style="top:314px">components/GameCard.jsx</li><li style="top:382px">components/PriceChart.jsx</li><li style="top:450px">tailwind.config.js</li><li style="top:518px">collecteur node-cron</li>
+    </ul>
+  </div>
+  <div class="next">
+    <h3 data-a="up">Objectif 03, le développement</h3>
+    <ol class="sprints" data-a="up">
+      <li><span>Sprint 2</span><b>Accueil, recherche, fiche jeu</b><small>Yessine, front-end</small></li>
+      <li><span>Sprint 3</span><b>API, base de données, collecte</b><small>Ahmed, back-end</small></li>
+      <li><span>Sprint 4</span><b>Comptes, liste, alertes</b><small>À deux</small></li>
+      <li><span>Sprint 5</span><b>Tests et démo</b><small>10 étudiants trouvent le meilleur prix en moins d’une minute</small></li>
+    </ol>
+    <p class="next__proof" data-a="up">La collecte est déjà prouvée : notre script lit l’API Steam et récupère titres, prix, éditions, configurations, actualités et visuels de 14 jeux, dont GTA V.</p>
+  </div>
+  <footer class="pg"></footer>
+</section>
+
+<!-- 13 · Merci : mur 3D de jaquettes -->
+<section class="slide dark s-end" data-title="Merci">
+  <canvas class="gl" data-gl="helix" aria-hidden="true"></canvas>
+  <ul class="recap" data-a="up">
+    <li><b>Arborescence</b>12 pages sur trois niveaux, tout à trois clics au plus.</li>
+    <li><b>Prototypes</b>4 pages cliquables, du wireframe à la haute fidélité, avec de vrais jeux.</li>
+    <li><b>Charte</b>Cinq couleurs, trois polices, des contrastes AAA.</li>
+    <li><b>Technologies</b>Next.js, Express et PostgreSQL, sans surenchère.</li>
+  </ul>
+  <div class="end">
+    <h2 class="end__title" data-a="letters"><span class="w">Merci</span><span class="w lime">&nbsp;!</span></h2>
+    <p class="end__q" data-a="up" data-at="0.8">Des questions ?</p>
+  </div>
+</section>
+
+</div><!-- /stage -->
+
+<div class="hud" data-hud>
+  <div class="hud__bar"><i data-progress></i></div>
+  <div class="hud__nav">
+    <button type="button" data-prev aria-label="Diapositive précédente">‹</button>
+    <span data-count-label>1 / 13</span>
+    <button type="button" data-next aria-label="Diapositive suivante">›</button>
+    <button type="button" data-fs aria-label="Plein écran">⤢</button>
+  </div>
+  <p class="hud__hint" data-hint>Flèches ou Espace pour avancer, F pour le plein écran</p>
+</div>
+</div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/shots.js"></script>
+<script src="assets/js/textures.js"></script>
+<script src="assets/js/gl.js"></script>
+<script src="assets/js/deck.js"></script>
+</body>
+</html>
