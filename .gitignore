@@ -1,4 +1,5 @@
 node_modules
+.next/
 client/dist
 server/data/state.json
 server/data/*.tmp
